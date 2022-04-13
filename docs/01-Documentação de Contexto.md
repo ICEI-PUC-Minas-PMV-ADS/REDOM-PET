@@ -1,7 +1,14 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Os medicamentos veterinários são instrumentos de uso imprescindível na manutenção da saúde animal. Todavia, o descarte inadequado dessas substâncias, quando não utilizadas por completo, representa um risco ambiental e à saúde pública. 
 
+Os tratamentos podem ser interrompidos por diversas razões. Seja pelo reestabelecimento da saúde ou morte do animal, essa interrupção gera uma sobra que por vezes é descartada. Conforme Ramos et al. (2017, p. 150), o ato de dispensar esses resíduos no lixo comum ou rede de esgoto, comportamento comum entre a população, causa a contaminação do solo e a água. O objetivo deste projeto é oferecer uma alternativa para tal problema através da doação.  
+
+Nesse contexto, a fim de reduzir o desperdício, a proposta é criar um mecanismo para que esses insumos, desde que não sejam de uso restrito, se encontrem na validade e em boas condições, sejam doados. Assim, acreditando no impacto positivo da tecnologia nos mais diversos setores da sociedade, a finalidade é criar uma rede de apoio solidária, proporcionando a comunicação dos tutores de Pets que desejam doar ou receber determinado medicamento. 
+
+Ao longo deste projeto, utilizaremos a expressão “Pets” para fazer referência exclusivamente aos cães e gatos, já que, inicialmente, a proposta é que essas doações sejam feitas apenas a esses animais. 
+
+ 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
