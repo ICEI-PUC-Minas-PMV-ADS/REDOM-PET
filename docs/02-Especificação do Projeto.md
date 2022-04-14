@@ -42,50 +42,49 @@ Com a observação do cotidiano das personas e a compreensão de suas necessidad
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+No projeto, sua estrutura e suas funções são determinadas a partir dos requisitos funcionais e não-funcionais.
+Os requisitos funcionais podem ser definidos como a descrição das funções que os usuários poderão utilizar para satisfazer suas necessidades. Já os requisitos não funcionais são aqueles que descrevem as características de usabilidade e outros aspectos que o site necessita apresentar de maneira geral.
+Portanto, com os estudos das personas e histórias dos usuários identificadas para o projeto, foram definidos os seguintes requisitos.
 
 ### Requisitos Funcionais
 
+Os requisitos funcionais do projeto e seus respectivos níveis de prioridade de entrega são apresentados na tabela a seguir.
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| O sistema permitirá que usuários realizem cadastro. | ALTA |
+|RF-02| O sistema permitirá que os usuários façam alterações em seus cadastros.   | ALTA |
+|RF-03| O cadastro do usuário deverá conter: Nome completo, e-mail, telefone (WhatsApp), bairro, cidade, estado, login, senha e data de nascimento.   | ALTA |
+|RF-04| O site deve permitir o cadastro de medicamentos para doação, com tais campos de preenchimento: Nome; Descrição; Quantidade e Validade.   | ALTA |
+|RF-05| O site permitirá a submissão de registros fotográficos dos medicamentos ao cadastrá-los.   | BAIXA |
+|RF-06| O site não permitirá o cadastro de medicamentos de controle rigoroso.   | MÉDIA |
+|RF-07| O sistema permitirá o acesso dos usuários através do login e senha.   | ALTA |
+|RF-08| O site deve ter uma funcionalidade de pesquisa que permita ao receptor buscar pelo medicamento que deseja obter.   | ALTA |
+|RF-09| O site deve ter um botão para exibir as informações de contato do doador para que o receptor possa se comunicar com o mesmo.   | ALTA |
+|RF-10| O site deverá conter um botão para o doador pausar o anúncio e quando esse botão for acionado, o contato com o doador será suspenso.   | ALTA |
+|RF-11| O site deve ter um botão que permita a exclusão do remédio pelo doador quando ele desejar ou fizer a doação do mesmo.   | ALTA |
+|RF-12| O site deve ter em sua home a história e objetivos da criação da REDOM-PET (Rede de Doação de Medicamentos para PET).   | MÉDIA |
 
 
 ### Requisitos não Funcionais
 
+Os requisitos não funcionais que a equipe deverá seguir durante o desenvolvimento, como também seus respectivos níveis de prioridade de entrega são apresentados na tabela a seguir.
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| O site deve ser responsivo, ou seja, permitir a visualização em diferentes dimensões. | ALTA |
+|RNF-02| O site deverá ter uma disponibilidade 24/7. |  ALTA |
+|RNF-03| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Opera e Microsoft Edge). |  ALTA |
+|RNF-04| A interface deve ser agradável, intuitiva e de fácil utilização para o usuário. |  MÉDIA |
+|RNF-05| O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages). |  ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+A tabela a seguir apresenta as condições que limitam a execução desse projeto.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01| O projeto deve ser entregue até dia 26/06/2022. |
+|RE-02| A equipe não pode contratar terceiros para o desenvolvimento do projeto. |
+|RE-03| O site deve ser desenvolvido utilizando linguagens de programação Web para Front-End, mais especificamente HTML, CSS e JavaScript. |
