@@ -52,18 +52,18 @@ Os requisitos funcionais do projeto e seus respectivos níveis de prioridade de 
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| O sistema permitirá que usuários realizem cadastro. | ALTA |
-|RF-02| O sistema permitirá que os usuários façam alterações em seus cadastros.   | ALTA |
-|RF-03| O cadastro do usuário deverá conter: Nome completo, e-mail, telefone (WhatsApp), bairro, cidade, estado, login, senha e data de nascimento.   | ALTA |
-|RF-04| O site deve permitir o cadastro de medicamentos para doação, com tais campos de preenchimento: Nome; Descrição; Quantidade e Validade.   | ALTA |
-|RF-05| O site permitirá a submissão de registros fotográficos dos medicamentos ao cadastrá-los.   | BAIXA |
-|RF-06| O site não permitirá o cadastro de medicamentos de controle rigoroso.   | MÉDIA |
-|RF-07| O sistema permitirá o acesso dos usuários através do login e senha.   | ALTA |
-|RF-08| O site deve ter uma funcionalidade de pesquisa que permita ao receptor buscar pelo medicamento que deseja obter.   | ALTA |
-|RF-09| O site deve ter um botão para exibir as informações de contato do doador para que o receptor possa se comunicar com o mesmo.   | ALTA |
-|RF-10| O site deverá conter um botão para o doador pausar o anúncio e quando esse botão for acionado, o contato com o doador será suspenso.   | ALTA |
-|RF-11| O site deve ter um botão que permita a exclusão do remédio pelo doador quando ele desejar ou fizer a doação do mesmo.   | ALTA |
-|RF-12| O site deve ter em sua home a história e objetivos da criação da REDOM-PET (Rede de Doação de Medicamentos para PET).   | MÉDIA |
+|RF-01 | O sistema permitirá que usuários realizem cadastro. | ALTA |
+|RF-02 | O sistema permitirá que os usuários façam alterações em seus cadastros.   | ALTA |
+|RF-03 | O cadastro do usuário deverá conter: Nome completo, e-mail, telefone (WhatsApp), bairro, cidade, estado, login, senha e data de nascimento.   | ALTA |
+|RF-04 | O site deve permitir o cadastro de medicamentos para doação, com tais campos de preenchimento: Nome; Descrição; Quantidade e Validade.   | ALTA |
+|RF-05 | O site permitirá a submissão de registros fotográficos dos medicamentos ao cadastrá-los.   | BAIXA |
+|RF-06 | O site não permitirá o cadastro de medicamentos de controle rigoroso.   | MÉDIA |
+|RF-07 | O sistema permitirá o acesso dos usuários através do login e senha.   | ALTA |
+|RF-08 | O site deve ter uma funcionalidade de pesquisa que permita ao receptor buscar pelo medicamento que deseja obter.   | ALTA |
+|RF-09 | O site deve ter um botão para exibir as informações de contato do doador para que o receptor possa se comunicar com o mesmo.   | ALTA |
+|RF-10 | O site deverá conter um botão para o doador pausar o anúncio e quando esse botão for acionado, o contato com o doador será suspenso.   | ALTA |
+|RF-11 | O site deve ter um botão que permita a exclusão do remédio pelo doador quando ele desejar ou fizer a doação do mesmo.   | ALTA |
+|RF-12 | O site deve ter em sua home a história e objetivos da criação da REDOM-PET (Rede de Doação de Medicamentos para PET).   | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -72,11 +72,11 @@ Os requisitos não funcionais que a equipe deverá seguir durante o desenvolvime
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| O site deve ser responsivo, ou seja, permitir a visualização em diferentes dimensões. | ALTA |
-|RNF-02| O site deverá ter uma disponibilidade 24/7. |  ALTA |
-|RNF-03| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Opera e Microsoft Edge). |  ALTA |
-|RNF-04| A interface deve ser agradável, intuitiva e de fácil utilização para o usuário. |  MÉDIA |
-|RNF-05| O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages). |  ALTA |
+|RNF-01 | O site deve ser responsivo, ou seja, permitir a visualização em diferentes dimensões. | ALTA |
+|RNF-02 | O site deverá ter uma disponibilidade 24/7. |  ALTA |
+|RNF-03 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Opera e Microsoft Edge). | ALTA |
+|RNF-04 | A interface deve ser agradável, intuitiva e de fácil utilização para o usuário. |  MÉDIA |
+|RNF-05 | O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages). | ALTA |
 
 
 ## Restrições
@@ -85,6 +85,6 @@ A tabela a seguir apresenta as condições que limitam a execução desse projet
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|RE-01| O projeto deve ser entregue até dia 26/06/2022. |
-|RE-02| A equipe não pode contratar terceiros para o desenvolvimento do projeto. |
-|RE-03| O site deve ser desenvolvido utilizando linguagens de programação Web para Front-End, mais especificamente HTML, CSS e JavaScript. |
+|RE-01 | O projeto deve ser entregue até dia 26/06/2022. |
+|RE-02 | A equipe não pode contratar terceiros para o desenvolvimento do projeto. |
+|RE-03 | O site deve ser desenvolvido utilizando linguagens de programação Web para Front-End, mais especificamente HTML, CSS e JavaScript. |
