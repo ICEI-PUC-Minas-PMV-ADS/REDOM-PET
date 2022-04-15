@@ -31,6 +31,11 @@ Segundo estudos, a venda de medicamentos passou entre 2002 e 2016 de 500 milhõe
 
 O descarte inadequado e o desperdício dos medicamentos são problemas progressivos na sociedade. As pesquisas mostram que a maioria da população faz o descarte dos medicamentos vencidos ou as sobras no lixo comum e no esgoto doméstico (pias, sanitários e tanques) (CONSELHO FEDERAL DE FARMÁCIA, 2019; CONSTANTINO et al., 2020). Em relação ao desperdício, os medicamentos tornaram-se o principal ponto dos gastos na saúde pública, os cálculos apontam que entre 20% e 40% de todos os gastos em saúde são desperdiçados. Isso reflete o valor de R$110 bilhões a R$220 bilhões em medicamentos vencidos (FIOCRUZ, 2017; CUNHA, 2019). 
 
+Os desperdícios pelo vencimento de medicamentos não ocorrem somente com dinheiro público, pois existem levantamentos que apontam que uma família de classe média perde aproximadamente R$ 60,00 por ano com remédios que são comprados e não são utilizados. 
+
+Algumas pessoas têm o costume de criar um estoque em casa, que muitas vezes perde a validade antes mesmo de ser usado. Além disso, no Brasil, falta uma cultura de descarte de medicamentos (OBSERVATÓRIO DA SAÚDE- RJ). 
+
+Diante do exposto, percebe-se a necessidade de difusão do tema não apenas pelas consequências sociais, ambientais e econômicas que estão atreladas a ele. Mas, também, pela possibilidade de desenvolvermos um sistema web que possibilite trazer uma solução para o desperdício de medicamentos no Brasil e ainda poder contribuir no tratamento de animais Pets que precisam. 
 ## Público-Alvo
 
 Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
