@@ -11,14 +11,16 @@ Ao longo deste projeto, utilizaremos a expressão “Pets” para fazer referên
 ## Problema
 
 Conforme o exposto, o problema que se busca minimizar é o descarte inadequado e o desperdício de medicamentos para pets.
+
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Intermediar através de uma plataforma web a doação de medicamentos entre tutores de pets em Pernambuco.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+- Desenvolver a funcionalidade de cadastro de medicamentos no site;
+-	Desenvolver a funcionalidade de pesquisa de medicamentos no site;
+-	Desenvolver uma funcionalidade para que o receptor visualize as informações de contato do doador indicando a necessidade do medicamento;
+-	Desenvolver a funcionalidade para que o doador possa pausar o anúncio do medicamento até que a doação se concretize.
 
 ## Justificativa
 
