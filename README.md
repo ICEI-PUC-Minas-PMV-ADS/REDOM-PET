@@ -10,14 +10,16 @@ Este projeto é direcionado aos tutores de pets que necessitem adquirir ou doar 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alana Maria Vasconcelos Dantas
+* Isabela Oliveira de Castro Silva
+* João Paulo Jorges da Silva
+* Lion Simon Gondim Tavarez
+* Marco Antônio dos Santos
+* Thiago Terra da Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
