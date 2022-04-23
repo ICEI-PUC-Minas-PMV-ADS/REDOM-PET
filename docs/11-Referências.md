@@ -10,7 +10,7 @@ CUNHA, A. B. Logística reversa de resíduos de medicamentos domésticos: um est
 
 FUNDAÇÃO OSWALDO CRUZ (FIOCRUZ), Ministério da Saúde, Brasil. Pesquisa analisa gastos com medicamentos no Brasil. 19/06/2017. Disponível em: https://portal.fiocruz.br/noticia/pesquisa-analisa-gastos-com-medicamentos-no-brasil. Acesso em: 14 mar. 2022. 
 
-Littlefield, A. Guia da metodologia ágil e scrum para iniciantes. 2016. Disponível em: https://blog.trello.com/br/scrum-metodologia-agil. Acessado em 14/04/2022. 
+LITTLEFIELD, A. Guia da metodologia ágil e scrum para iniciantes. 2016. Disponível em: https://blog.trello.com/br/scrum-metodologia-agil. Acessado em 14/04/2022. 
 
 OBSERVATÓRIO DA SAÚDE-RJ. Rio de Janeiro: 13 de março de 2020. Desperdício de medicamentos causa déficit milionário. Disponível em: http://observatoriodasauderj.com.br/desperdicio-de-medicamentos-causa-deficit-milionario/. Acesso em: 10 mar. 2022. 
 
