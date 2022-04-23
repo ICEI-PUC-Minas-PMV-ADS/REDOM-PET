@@ -65,7 +65,7 @@ O backup dos documentos está sendo feito no OneDrive para facilitar o compartil
 - Ferramenta de gerenciamento de projeto: GitHub 
 O quadro Kanban do grupo no GitHub Classroom foi organizado e distribuído com as tarefas conforme a Figura W. A definição desta estrutura se baseou na proposta feita por Littlefield (2016) e mesmo está [disponível aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t10-redom-pet/projects/2).
 
- ![Figura-quadro kanban da equipe](img/quadro-hanban.png)
+ ![Figura-quadro kanban da equipe](img/quadro-kanban.png)
 
 **Meeting**: esta coluna apresenta os dias que aconteceram as reuniões da equipe, assim como os principais tópicos tratados. 
 **Backlog**: esta coluna apresenta as atividades a serem desenvolvidas, ou seja, o Product Backlog. Todas as atividades que acontecerão no projeto estarão dispostas nessa coluna. 
