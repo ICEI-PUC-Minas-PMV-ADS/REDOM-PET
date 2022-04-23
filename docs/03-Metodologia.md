@@ -65,12 +65,12 @@ O backup dos documentos está sendo feito no OneDrive para facilitar o compartil
 - Ferramenta de gerenciamento de projeto: GitHub 
 O quadro Kanban do grupo no GitHub Classroom foi organizado e distribuído com as tarefas conforme a Figura W. A definição desta estrutura se baseou na proposta feita por Littlefield (2016) e mesmo está [disponível aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t10-redom-pet/projects/2).
 
- ![Figura-quadro kanban da equipe](img/quadro-hanban.png)
+ ![Figura-quadro kanban da equipe](img/quadro-kanban.png)
 
-**Meeting**: esta coluna apresenta os dias que aconteceram as reuniões da equipe, assim como os principais tópicos tratados. 
-**Backlog**: esta coluna apresenta as atividades a serem desenvolvidas, ou seja, o Product Backlog. Todas as atividades que acontecerão no projeto estarão dispostas nessa coluna. 
-**To Do**: esta coluna representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-**In progress**: quando uma tarefa tiver sido iniciada é movida para esta coluna. 
-**Test**: esta coluna é para checar a qualidade do que está sendo produzido. Antes de qualquer entrega todos os tópicos dessa coluna deverão ser finalizados. 
-**Done**: nesta coluna são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário.  
-**Locked**: esta coluna é preenchida quando há algo que impeça a conclusão da tarefa, também é feito um comentário explicando aos demais integrantes da equipe o motivo do impedimento. 
+- **Meeting**: esta coluna apresenta os dias que aconteceram as reuniões da equipe, assim como os principais tópicos tratados. 
+- **Backlog**: esta coluna apresenta as atividades a serem desenvolvidas, ou seja, o Product Backlog. Todas as atividades que acontecerão no projeto estarão dispostas nessa coluna. 
+- **To Do**: esta coluna representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
+- **In progress**: quando uma tarefa tiver sido iniciada é movida para esta coluna. 
+- **Test**: esta coluna é para checar a qualidade do que está sendo produzido. Antes de qualquer entrega todos os tópicos dessa coluna deverão ser finalizados. 
+- **Done**: nesta coluna são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário.  
+- **Locked**: esta coluna é preenchida quando há algo que impeça a conclusão da tarefa, também é feito um comentário explicando aos demais integrantes da equipe o motivo do impedimento. 
