@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# REDOM PET
 
-`CURSO`
+`TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO: DESENVOLVIMENTO DE APLICAÇÃO WEB FRONT-END`
 
-`SEMESTRE`
+`1º/2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto é direcionado aos tutores de pets que necessitem adquirir ou doar medicamentos veterinários para o tratamento das enfermidades dos seus animais.  
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alana Maria Vasconcelos Dantas
+* Isabela Oliveira de Castro Silva
+* João Paulo Jorges da Silva
+* Lion Simon Gondim Tavarez
+* Marco Antônio dos Santos
+* Thiago Terra da Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
