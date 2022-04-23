@@ -66,10 +66,22 @@ Portanto, com os estudos das personas e histórias dos usuários identificadas p
 
 ### Requisitos Funcionais
 
+Os requisitos funcionais do projeto e seus respectivos níveis de prioridade de entrega são apresentados na tabela a seguir.
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| O sistema permitirá que usuários realizem cadastro. | ALTA | 
+|RF-02| O sistema permitirá que os usuários façam alterações em seus cadastros.   | ALTA |
+|RF-03| O cadastro do usuário deverá conter: Nome completo, e-mail, telefone (WhatsApp), bairro, cidade, estado, login, senha e data de nascimento. | ALTA |
+|RF-04| O site deve permitir o cadastro de medicamentos para doação, com tais campos de preenchimento: Nome; Descrição; Quantidade e Validade. | ALTA |
+|RF-05| O site permitirá a submissão de registros fotográficos dos medicamentos ao cadastrá-los. | BAIXA |
+|RF-06| O site não permitirá o cadastro de medicamentos de controle rigoroso. | MÉDIA |
+|RF-07| O sistema permitirá o acesso dos usuários através do login e senha. | ALTA |
+|RF-08| O site deve ter uma funcionalidade de pesquisa que permita ao receptor buscar pelo medicamento que deseja obter. | ALTA |
+|RF-09| O site deve ter um botão para exibir as informações de contato do doador para que o receptor possa se comunicar com o mesmo. | ALTA |
+|RF-10| O site deverá conter um botão para o doador pausar o anúncio e quando esse botão for acionado, o contato com o doador será suspenso. | ALTA |
+|RF-11| O site deve ter um botão que permita a exclusão do remédio pelo doador quando ele desejar ou fizer a doação do mesmo. | ALTA |
+|RF-12| O site deve ter em sua home a história e objetivos da criação da REDOM-PET (Rede de Doação de Medicamentos para PET). | MÉDIA |
 
 
 ### Requisitos não Funcionais
