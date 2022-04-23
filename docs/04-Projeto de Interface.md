@@ -20,11 +20,11 @@ Cada uma das telas representadas nos fluxos será detalhada na seção de Wirefr
 
 ## Wireframes
 
-No fluxo de telas do projeto, detalhado no item anterior, é possível observar que as mesmas apresentam uma estrutura padrão comum – tal como apresentado na Figura 6 –. Nesta estrutura existem, três grandes blocos descritos a seguir:
+No fluxo de telas do projeto, detalhado no item anterior, é possível observar que as mesmas apresentam uma estrutura padrão comum – tal como apresentado na Figura 6 –. Nesta estrutura existe três grandes blocos descritos a seguir:
 
-- **Cabeçalho**: local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
-- **Conteúdo**: apresenta o conteúdo da tela em questão;
-- **Rodapé**: apresenta informações sobre a equipe de desenvolvimento.
+1. **Cabeçalho**: local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
+2. **Conteúdo**: apresenta o conteúdo da tela em questão;
+3. **Rodapé**: apresenta informações sobre a equipe de desenvolvimento.
 
 ![estrutura padrao](img/estrutura_padrao.png)
 
@@ -69,6 +69,6 @@ A tela de Informações do Medicamento apresenta, no bloco de conteúdo, todas a
 
 ### Tela - Cadastro do Medicamento
 
-A tela de Cadastro de Medicamento contará, no Bloco de Conteúdo, informações como: nome, observação/descrição, tipo, quantidade, foto e validade do medicamento. Após o preenchimento de todas as informações obrigatórias o botão “Cadastrar” ficará ativo.
+A tela de Cadastro de Medicamento contará, no bloco de conteúdo, informações como: nome, observação/descrição, tipo, quantidade, foto e validade do medicamento. Após o preenchimento de todas as informações obrigatórias o botão “Cadastrar” ficará ativo.
 
 ![tela cadastro medicamentos](img/cadastro_medicamentos.png)
