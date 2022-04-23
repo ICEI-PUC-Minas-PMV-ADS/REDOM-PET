@@ -11,7 +11,7 @@ Os sistemas de Source Control Management (SCM – Gerenciamento de controle do c
 Assim sendo, o projeto segue a seguinte convenção para o nome de branches: 
 
 - `main`: versão estável já testada do software; 
-- `hotflix`: versão usada para corrigir os lançamentos de produção; 
+- `hotfix`: versão usada para corrigir os lançamentos de produção; 
 - `release`: versão em testes do software; 
 - `develop`: versão de desenvolvimento do software; 
 - `feature`: uma nova funcionalidade do site ou atualização da documentação que precisa ser introduzida.
