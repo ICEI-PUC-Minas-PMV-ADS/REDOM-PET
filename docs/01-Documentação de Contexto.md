@@ -1,19 +1,16 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Os medicamentos veterinários são instrumentos de uso imprescindível na manutenção da saúde animal. Todavia, o descarte inadequado dessas substâncias, quando não utilizadas por completo, representa um risco ambiental e à saúde pública. 
+
+Os tratamentos podem ser interrompidos por diversas razões. Seja pelo reestabelecimento da saúde ou morte do animal, essa interrupção gera uma sobra que por vezes é descartada. Conforme Ramos et al. (2017, p. 150), o ato de dispensar esses resíduos no lixo comum ou rede de esgoto, comportamento comum entre a população, causa a contaminação do solo e a água. O objetivo deste projeto é oferecer uma alternativa para tal problema através da doação.  
+
+Nesse contexto, a fim de reduzir o desperdício, a proposta é criar um mecanismo para que esses insumos, desde que não sejam de uso restrito, se encontrem na validade e em boas condições, sejam doados. Assim, acreditando no impacto positivo da tecnologia nos mais diversos setores da sociedade, a finalidade é criar uma rede de apoio solidária, proporcionando a comunicação dos tutores de Pets que desejam doar ou receber determinado medicamento. 
+
+Ao longo deste projeto, utilizaremos a expressão “Pets” para fazer referência exclusivamente aos cães e gatos, já que, inicialmente, a proposta é que essas doações sejam feitas apenas a esses animais. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
+Conforme o exposto, o problema que se busca minimizar é o descarte inadequado e o desperdício de medicamentos para pets.
 ## Objetivos
 
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
