@@ -23,7 +23,7 @@ Assim sendo, o projeto segue a seguinte convenção para o nome de branches:
 
 Para o gerenciamento do projeto, a equipe optou pelo Scrum, metodologia ágil na otimização do processo de desenvolvimento. 
 
-A equipe está organizada da seguinte maneira: 
+A equipe está organizada da seguinte forma: 
 
 - Scrum Master: Alana Vasconcelos 
 - Product Owner: Lion Simon 
@@ -63,7 +63,7 @@ O projeto em Wireframe foi criado na plataforma de prototipagem Figma, e a mesma
 O backup dos documentos está sendo feito no OneDrive para facilitar o compartilhamento dos arquivos entre a equipe. O mesmo pode ser [acessado aqui](https://sgapucminasbr-my.sharepoint.com/personal/1401789_sga_pucminas_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F1401789%5Fsga%5Fpucminas%5Fbr%2FDocuments%2FREDOM%2DPET%20%2D%20Arquivos&ga=1).
  
 - Ferramenta de gerenciamento de projeto: GitHub 
-O quadro Kanban do grupo no GitHub Classroom foi organizado e distribuído com as tarefas conforme a Figura W. A definição desta estrutura se baseou na proposta feita por Littlefield (2016) e mesmo está [disponível aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t10-redom-pet/projects/2).
+O quadro Kanban do grupo no GitHub Classroom foi organizado e distribuído com as tarefas conforme a Figura W. A definição desta estrutura se baseou na proposta feita por Littlefield (2016) e a mesma está [disponível aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t10-redom-pet/projects/2).
 
  ![Figura-quadro kanban da equipe](img/quadro-kanban.png)
 
