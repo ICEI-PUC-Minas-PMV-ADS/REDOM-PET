@@ -1,77 +1,33 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+A arquitetura de solução é responsável por construir e implementar soluções com base nas necessidades do negócio. Pensando nisso, esta seção é composta dos detalhes técnicos, dos componentes e do ambiente de hospedagem que serão utilizados no projeto. 
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+A Figura 14 detalha os componentes que fazem parte da aplicação. 
 
-Exemplo: 
+![Diagrama de Componentes](img/diagrama.png)
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+A solução implementada conta com os seguintes módulos: 
+- Navegador - Interface básica do sistema 
+    - Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema. 
+    - Local Storage - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles:
 
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+        - Imagens - imagens dos medicamentos adicionadas pelo doador, imagens dos perfis dos usuários e imagens gerais do sistema;
+        - Dados de usuário- registro de informações dos usuários sobre seus dados;
+        - Dados de medicamentos – medicamentos cadastrados no sistema, assim como as informações do mesmo;
+        - Interesses - medicamentos que o usuário marcou como “Eu quero”.
 
-A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
-
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
-
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
-
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
-
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
-
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
-
-![Exemplo de UserFlow](img/userflow.jpg)
-
+- Hospedagem - serviço on-line onde os arquivos são armazenados e acessados pelo navegador. 
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
+Para a implementação da solução faremos uso de algumas tecnologias, tal como o Visual Studio Code (VS Code), trata-se de um editor de código-fonte - também conhecido como IDE de desenvolvimento – foi escolhido por ser de fácil utilização. A equipe faz uso da ferramenta de comunicação da Microsoft, o Teams, onde acontece as reuniões com a orientadora do projeto. 
+Para a criação dos wireframes e protótipos foi escolhido o Figma por se tratar de uma ferramenta de design para interfaces com possibilidade de trabalho colaborativo, além da forma intuitiva como ele se apresenta. Para uma segurança dos arquivos, definimos o OneDrive, serviço de armazenamento em nuvem da Microsoft, como ferramenta de backup e armazenamento. 
+O GitHub também está sendo utilizado por se tratar de um serviço baseado em nuvem e que hospeda um sistema de controle de versão – o Git –. Para a hospedagem da nossa aplicação será utilizado o Microsoft Azure.  
+Pela equipe ser iniciante na área e não ter conhecimento de frameworks ainda, utilizaremos as linguagens ensinadas na disciplina de Desenvolvimento Web Front-End que são: HTML, CSS e JavaScript. 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+O site do projeto utiliza a plataforma Microsoft Azure como serviço de hospedagem. O site pode ser [acessado aqui](https://testeredompet.azurewebsites.net/).
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
