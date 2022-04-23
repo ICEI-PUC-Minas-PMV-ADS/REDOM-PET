@@ -60,7 +60,9 @@ Com a observação do cotidiano das personas e a compreensão de suas necessidad
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+No projeto, sua estrutura e suas funções são determinadas a partir dos requisitos funcionais e não-funcionais.
+Os requisitos funcionais podem ser definidos como a descrição das funções que os usuários poderão utilizar para satisfazer suas necessidades. Já os requisitos não funcionais são aqueles que descrevem as características de usabilidade e outros aspectos que o site necessita apresentar de maneira geral.
+Portanto, com os estudos das personas e histórias dos usuários identificadas para o projeto, foram definidos os seguintes requisitos.
 
 ### Requisitos Funcionais
 
