@@ -24,13 +24,17 @@ Como objetivos específicos, podemos ressaltar:
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O uso de medicamentos é considerado a forma mais usual de terapia na sociedade. Devido a sua relevância na vida da população, os medicamentos são introduzidos em grande parte dos setores de atenção à saúde (SILVA, 2021). No universo da Medicina Veterinária não é diferente, a importância do medicamento na vida dos animais é equivalente ao seu uso na terapia dos homens.  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Segundo estudos, a venda de medicamentos passou entre 2002 e 2016 de 500 milhões para 3,5 bilhões de embalagens. Esse crescimento entre os brasileiros é associado à prática de acumulação de medicamentos em casa. Proporcionalmente, ocorreu também um aumento na geração de resíduos medicamentosos (QUADRA et al., 2018; ABRELPE, 2019; CONSTANTINO et al., 2020). 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O descarte inadequado e o desperdício dos medicamentos são problemas progressivos na sociedade. As pesquisas mostram que a maioria da população faz o descarte dos medicamentos vencidos ou as sobras no lixo comum e no esgoto doméstico (pias, sanitários e tanques) (CONSELHO FEDERAL DE FARMÁCIA, 2019; CONSTANTINO et al., 2020). Em relação ao desperdício, os medicamentos tornaram-se o principal ponto dos gastos na saúde pública, os cálculos apontam que entre 20% e 40% de todos os gastos em saúde são desperdiçados. Isso reflete o valor de R$110 bilhões a R$220 bilhões em medicamentos vencidos (FIOCRUZ, 2017; CUNHA, 2019). 
 
+Os desperdícios pelo vencimento de medicamentos não ocorrem somente com dinheiro público, pois existem levantamentos que apontam que uma família de classe média perde aproximadamente R$ 60,00 por ano com remédios que são comprados e não são utilizados. 
+
+Algumas pessoas têm o costume de criar um estoque em casa, que muitas vezes perde a validade antes mesmo de ser usado. Além disso, no Brasil, falta uma cultura de descarte de medicamentos (OBSERVATÓRIO DA SAÚDE- RJ). 
+
+Diante do exposto, percebe-se a necessidade de difusão do tema não apenas pelas consequências sociais, ambientais e econômicas que estão atreladas a ele. Mas, também, pela possibilidade de desenvolvermos um sistema web que possibilite trazer uma solução para o desperdício de medicamentos no Brasil e ainda poder contribuir no tratamento de animais Pets que precisam. 
 ## Público-Alvo
 
 Este projeto é direcionado aos tutores de pets que necessitem adquirir ou doar medicamentos veterinários para o tratamento das enfermidades dos seus animais.  
