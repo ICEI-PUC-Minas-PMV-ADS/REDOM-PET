@@ -23,7 +23,7 @@ Este projeto é direcionado aos tutores de pets que necessitem adquirir ou doar 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Assim que a primeira versão do sistema estiver disponível, iremos descrever as instruções de como navegar pela plataforma.
 
 # Documentação
 
