@@ -1,35 +1,74 @@
-
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+O detalhamento da interface do sistema levou em consideração questões como acessibilidade, usabilidade e agilidade. Assim sendo, o projeto possui uma identidade padronizada em todas as telas e foram projetadas para permitir a navegabilidade em desktops e dispositivos móveis.
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+## Fluxo de usuário
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+A Figura 3 apresentada abaixo detalha o fluxo de interação do usuário pelas telas do sistema de acordo com a necessidade “Quero receber”.
 
-## User Flow
+![Fluxo quero receber](img/fluxo_quero_receber.png)
 
-![Exemplo de UserFlow](img/userflow.jpg)
+A Figura 4 apresentada abaixo detalha o fluxo de interação do usuário pelas telas do sistema de acordo com a necessidade “Quero doar”.
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+![Fluxo quero doar](img/fluxo_quero_doar.png)
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+A Figura 5 apresentada abaixo detalha o fluxo de interação do usuário pelas telas do sistema de acordo com a necessidade de acessar seu “Perfil de Usuário” para editar e visualizar as informações referentes ao mesmo.
 
+![Fluxo perfil usuario](img/fluxo_perfil_usuario.png)
+
+Cada uma das telas representadas nos fluxos será detalhada na seção de Wireframes e para visualizar o wireframe interativo,[clique aqui](<https://www.figma.com/file/Y7PikQcB8ZZHwyp0ttTr0X/Projeto---REDOM-PET-(Rede-de-Doa%C3%A7%C3%A3o-de-Medicamentos-para-Pet)?node-id=0%3A1>).
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+No fluxo de telas do projeto, detalhado no item anterior, é possível observar que as mesmas apresentam uma estrutura padrão comum – tal como apresentado na Figura 6 –. Nesta estrutura existem, três grandes blocos descritos a seguir:
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+- Cabeçalho: local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
+- Conteúdo: apresenta o conteúdo da tela em questão;
+- Rodapé: apresenta informações sobre a equipe de desenvolvimento.
+
+![estrutura padrao](img/estrutura_padrao.png)
+
+### Tela - Homepage
+
+Na tela homepage temos um menu de navegação com os componentes de home, medicamentos, doar e login ou cadastro. 
+No bloco de conteúdo é possível visualizar informações de quem somos, missão, depoimentos e os componentes de “Quero doar” e “Quero receber”. Tais componentes são fluxos que o usuário poderá percorrer no site, dessa forma:
+
+- O fluxo “Quero doar” permite o usuário cadastrar um medicamento para possível doação no sistema.
+- O fluxo “Quero receber” permite o usuário pesquisar ou acessar uma lista de medicamentos disponíveis no sistema. 
+  ![tela homepage](img/home_page.png)
+
+### Tela - Login
+
+A tela de login contém dois campos, onde o usuário informa seu e-mail e senha cadastrados para realizar o login no sistema e assim ter acesso a determinados funções. Esta tela também apresenta uma opção para novos usuários que ainda não possuem cadastro no sistema conseguirem realizá-lo.
+
+![tela login](img/login.png)
+
+### Tela - Cadastro de Usuário
+
+Caso o usuário não possua um cadastro, é nessa tela que ele realizará o mesmo. Ela possui campos para inserção de informações pessoais importantes para o funcionamento do sistema. Logo após preenchido os campos, o usuário deve clicar no botão “cadastrar” para efetivar seu cadastro.
+
+![tela cadastro usuario](img/cadastro_usuario.png)
+
+### Tela - Perfil do Usuário
+
+A tela de Perfil do Usuário, no bloco conteúdo, trará a foto, dados cadastrais, informações de contato e informações sobre os medicamentos cadastrados por esse usuário e os medicamentos que ele gostaria de receber, assim como funcionalidades para excluir ou alterá-los.
+
+![tela perfil do usuario](img/perfil_usuario.png)
+
+### Tela - Medicamentos
+
+A tela de medicamentos apresenta, no bloco de conteúdo, os medicamentos que foram cadastrados assim como uma barra de pesquisa para a busca ser mais direta.
+
+![tela medicamentos](img/medicamentos.png)
+
+### Informações do Medicamento
+
+A tela de Informações do Medicamento apresenta, no bloco de conteúdo, todas as informações sobre o medicamento e um botão “Eu quero” para sinalizar as intenções do receptor para o doador. Assim que o receptor clicar no botão, aparecerá as informações previamente cadastradas pelo doador.
+
+![tela info medicamentos](img/info_medicamentos.png)
+
+### Tela Cadastro do Medicamento
+
+A tela de Cadastro de Medicamento contará, no Bloco de Conteúdo, informações como: nome, observação/descrição, tipo, quantidade, foto e validade do medicamento. Após o preenchimento de todas as informações obrigatórias o botão “Cadastrar” ficará ativo.
+
+![tela cadastro medicamentos](img/cadastro_medicamentos.png)
