@@ -8,6 +8,13 @@ Nesse contexto, a fim de reduzir o desperdício, a proposta é criar um mecanism
 
 Ao longo deste projeto, utilizaremos a expressão “Pets” para fazer referência exclusivamente aos cães e gatos, já que, inicialmente, a proposta é que essas doações sejam feitas apenas a esses animais. 
 
+Vale destacar, também, que o projeto tomará como referência no que tange à acessibilidade o conceito da Cartilha Acessibilidade na Web, da W3C (World Wide Web Consortium), onde acessibilidade é a:
+
+>*possibilidade e condição de alcance, percepção e entendimento para a utilização, em igualdade de oportunidades, com segurança e autonomia, do meio físico, do transporte,  da informação e da comunicação, inclusive dos sistemas e tecnologias de informação e comunicação, bem como de outros serviços e instalações (W3C, 2015, p.6).*
+
+Haverá a preocupação com a descrição alternativa das imagens, possibilitando aos deficientes visuais um melhor entendimento assim que o leitor de tela identificar o atributo ALT do HTML. Também tomaremos cuidado com relação ao destaque das informações, não utilizaremos apenas cores, pois isso dificulta a leitura por parte de pessoas com daltonismo, o uso da pseudo-classe, hover, no CSS, facilitará esse entendimento. Nos preocupamos com as áreas de clique dentro do site e as mesmas serão maiores, pois ajudará àqueles com algum problema de coordenação motora. Por fim, os conteúdos dentro do site serão claros e em linguagem simples, facilitando a leitura por parte de pessoas com dislexia.
+
+
 ## Problema
 
 Conforme o exposto, o problema que se busca minimizar é o descarte inadequado e o desperdício de medicamentos para pets.
