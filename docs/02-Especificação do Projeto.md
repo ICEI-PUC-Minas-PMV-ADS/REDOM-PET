@@ -76,7 +76,7 @@ Os requisitos funcionais do projeto e seus respectivos níveis de prioridade de 
 |RF-04| O site deve permitir o cadastro de medicamentos para doação, com tais campos de preenchimento: Nome; Descrição; Quantidade e Validade. | ALTA |
 |RF-05| O site permitirá a submissão de registros fotográficos dos medicamentos ao cadastrá-los. | BAIXA |
 |RF-06| O site não permitirá o cadastro de medicamentos de controle rigoroso. | MÉDIA |
-|RF-07| O sistema permitirá o acesso dos usuários através do login e senha. | ALTA |
+|RF-07| O sistema permitirá o acesso dos usuários através de uma página com login e senha. | ALTA |
 |RF-08| O site deve ter uma funcionalidade de pesquisa que permita ao receptor buscar pelo medicamento que deseja obter. | ALTA |
 |RF-09| O site deve ter um botão para exibir as informações de contato do doador para que o receptor possa se comunicar com o mesmo. | ALTA |
 |RF-10| O site deverá conter um botão para o doador pausar o anúncio e quando esse botão for acionado, o contato com o doador será suspenso. | ALTA |
