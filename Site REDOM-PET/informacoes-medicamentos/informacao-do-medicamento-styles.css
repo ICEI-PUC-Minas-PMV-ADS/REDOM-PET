@@ -1,0 +1,212 @@
+/*Fonte MontSerrat do Google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+/*Gerais*/
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family:'Montserrat';
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 20px 0;  
+}
+
+p {
+    margin: 0;
+}
+
+
+
+/* Reader */
+
+header, .navbar {
+    background-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 35px;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+}
+
+#login-cadastro {
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    margin: 0;
+    white-space: nowrap
+}
+
+#link-login-cadastro {
+    padding: 0;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    white-space: nowrap
+
+}
+
+a#link-login-cadastro {
+    text-decoration: none;
+    color: rgba(208, 108, 120, 1);
+    font-weight: 700;
+    white-space: nowrap
+}
+
+#perfil {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: right
+}
+
+#fotoperfil {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}s
+
+/*MAIN*/
+
+#tituloInfo {
+    font-weight: 700;
+    font-size: 36px;
+    color: rgba(36, 46, 71, 1);
+}
+
+#divConteudo {
+    padding-top: 47px;
+    padding-bottom: 0;
+}
+
+#divContato {
+    padding-top: 10px;
+    padding-bottom: 81px;
+}
+
+.container-fluid {
+    background-color: rgba(232, 244, 244, 1);
+    height: 113px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tituloMedicamento {
+    padding-bottom: 36px;
+}
+
+#tipoQuantidade {
+    padding: 0px;
+}
+
+/*EDITANDO BOTAO EU QUERO*/
+
+.button {
+    background: rgba(36, 46, 71, 1);
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 132px;
+    height: 36px;
+    border: none;
+    float: right;
+}
+
+#botao {
+    padding: 10px 0;
+}
+
+#informacoesDoador {
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+#boxInformacoes {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+#colDoador {
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+.container-geral2 {
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(36, 46, 71, 1);
+}
+
+h5, h6 {
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(36, 46, 71, 1);
+    padding-bottom: 0px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: rgba(36, 46, 71, 1);
+    margin: 0;
+}
+
+#texto {
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    padding-bottom: 17px;
+}
+
+#textoBox {
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+}
+
+/* Footer */
+  
+footer {
+    margin-top: auto;
+}
+
+
+.container-footer {
+    background-color: rgba(232, 244, 244, 1);
+    padding: 30px 0;
+}
+
+#footer {
+    margin: 0;
+    color: rgba(36, 46, 71, 1);
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+#logopuc {
+    padding-bottom: 10px;
+}

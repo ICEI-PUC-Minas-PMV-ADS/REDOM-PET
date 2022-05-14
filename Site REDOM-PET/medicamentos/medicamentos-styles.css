@@ -1,0 +1,227 @@
+/*Fonte MontSerrat do Google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+/*Gerais*/
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family:'Montserrat';
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 20px 0;  
+}
+
+p {
+    margin: 0;
+}
+
+
+
+/* Reader */
+
+header, .navbar {
+    background-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 35px;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+}
+
+#login-cadastro {
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    margin: 0;
+    white-space: nowrap
+}
+
+#link-login-cadastro {
+    padding: 0;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    white-space: nowrap
+
+}
+
+a#link-login-cadastro {
+    text-decoration: none;
+    color: rgba(208, 108, 120, 1);
+    font-weight: 700;
+    white-space: nowrap
+}
+
+#perfil {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: right
+}
+
+#fotoperfil {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* Conteúdo Quem Somos */
+
+#faixa-quem-somos {
+    background-color: rgba(232, 244, 244, 1);
+    background: linear-gradient(180deg, #fff 0%, #fff 10%, rgba(232, 244, 244, 1) 10%, rgba(232, 244, 244, 1) 90%, #fff 90%, #fff 100%);
+}
+
+#imagem-menina-cachorro{
+    text-align: center;
+}
+
+#quem-somos {
+    color: rgba(36, 46, 71, 1);
+    font-weight: 900;
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+#texto-quem-somos {
+    color: rgba(36, 46, 71, 1);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+
+/* Conteúdo Medicamentos */
+#faixa-pesquisa-medicamentos{
+    background-color: rgba(232, 244, 244, 1);
+    height: 200px;
+}
+
+#titulo-medicamento{ 
+    font-size: 36px;
+    font-weight: 700;
+    color:rgba(36, 46, 71, 1);
+    text-align: center;
+   padding-top: 45px;
+   padding-bottom: 0;
+
+
+}
+#input_pesquisa{
+    border:none; 
+}
+
+i{
+    color:rgba(36, 46, 71, 1);
+}
+#Texto-secundario{
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgba(36, 46, 71, 1);
+    padding-top: 41px;
+}
+#caixa-medicamento{
+    border: 1px solid rgba(167, 183, 183, 1);
+    border-radius: 8px;
+    height: 288px;
+    width: 270px;
+}
+#conteudo-medicamento{
+    padding: 17px;
+    text-align: center;
+    
+}
+#medicamento{
+    font-size: 15px;
+    font-weight: 600;
+    color:rgba(36, 46, 71, 1);
+}
+#quantidade{
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    padding-bottom: 8px;    
+}
+a#botao-mais-informacoes{
+    text-decoration: none;
+}
+#mais-informacoes{
+    font-size: 15px;
+    font-weight: 700px;
+    color:white;
+    margin: 0;
+    height: 42px;
+    width: 100%;
+    background-color:rgba(36, 46, 71, 1);
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container-central{
+    width: 1200px;
+    padding: 15px 0;
+}
+#imagens-medicamentos{
+    padding: 25px;
+}
+#botao-informacao{
+    padding-top: 7px;
+}
+.page-link {
+    color: rgba(171, 171, 171, 1);
+    border: 0;
+}
+
+.page-link:hover{
+    color: rgba(36, 46, 71, 1);
+}
+#input_pesquisa {
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#icone_pesquisa {
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+    
+/* Footer */
+  
+footer {
+    margin-top: auto;
+}
+
+
+.container-footer {
+    background-color: rgba(232, 244, 244, 1);
+    padding: 30px 0;
+}
+
+#footer {
+    margin: 0;
+    color: rgba(36, 46, 71, 1);
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+#logopuc {
+    padding-bottom: 10px;
+}

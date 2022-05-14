@@ -1,0 +1,208 @@
+/*Fonte Montserrat do Google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+
+/*Gerais*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family:'Montserrat';
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 20px 0;  
+}
+
+p {
+    margin: 0;
+}
+
+/* CORES */
+:root {
+    --cor-botao: #242E47;
+    --color-fonte: #242E47;
+    --color-fonte-botao-imagem: #8F97AB;
+    --cor-borda: #D0D0D0;
+    --cor-div-imagem: #F4F4F4;
+    --cor-back-titulo: #E8F4F4;
+}
+
+
+/* Reader */
+
+header, .navbar {
+    background-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 35px;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+}
+
+#login-cadastro {
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    margin: 0;
+    white-space: nowrap
+}
+
+#link-login-cadastro {
+    padding: 0;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    white-space: nowrap
+
+}
+
+a#link-login-cadastro {
+    text-decoration: none;
+    color: rgba(208, 108, 120, 1);
+    font-weight: 700;
+    white-space: nowrap
+}
+
+#perfil {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: right
+}
+
+#fotoperfil {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.alterar_imagem {
+    color: #6F6F6F;
+    font-family: 'Montserrat'; 
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding-left: 8px;
+    padding-right: 70px;
+    padding-top: 10px;
+  }
+
+#div-alterar-imagem {
+    text-align: center;
+}
+
+/* CONTEÚDO PRINCIPAL */
+#container_conteudo {
+    padding: 50px 0;
+  }
+  
+  .titulo{
+    padding: 35px 0;
+    background-color: var(--cor-back-titulo);
+    color: var(--color-fonte);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .titulo > p {
+    margin: 0;
+  }
+  
+  .inserir_imagem {
+    background-color: var(--cor-div-imagem);
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .botao_imagem {
+    width: 217px;
+    height: 73px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid var(--cor-borda);
+    cursor: pointer;
+    color: rgb(145, 145, 145);
+  }
+  
+  .botao_imagem:hover {
+    transition: 0.5;
+    background-color: rgb(236, 236, 236);
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .div_botao_cadastro {
+    display: flex;
+    justify-content: end;
+  }
+  
+  #botao_cadastrar {
+    background-color: var(--cor-botao);
+    width: 132px;
+    align-content: flex-end;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #caixa-quantidade{
+      padding-left: 15px;
+      padding-right: 0;
+  }
+
+  #caixa-tipo-de-medicamento{
+    padding: 0;
+}
+
+/* Footer */
+  
+footer {
+    margin-top: auto;
+}
+
+
+.container-footer {
+    background-color: rgba(232, 244, 244, 1);
+    padding: 30px 0;
+}
+
+#footer {
+    margin: 0;
+    color: rgba(36, 46, 71, 1);
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+#logopuc {
+    padding-bottom: 10px;
+}

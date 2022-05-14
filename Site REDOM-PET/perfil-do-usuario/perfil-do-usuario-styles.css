@@ -1,0 +1,364 @@
+/*Fonte MontSerrat do Google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+/*Gerais*/
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family:'Montserrat';
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 20px 0;  
+}
+
+p {
+    margin: 0;
+}
+
+
+/* Reader */
+
+header, .navbar {
+    background-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 35px;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+}
+
+#login-cadastro {
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    margin: 0;
+    white-space: nowrap
+}
+
+#link-login-cadastro {
+    padding: 0;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    white-space: nowrap
+
+}
+
+a#link-login-cadastro {
+    text-decoration: none;
+    color: rgba(208, 108, 120, 1);
+    font-weight: 700;
+    white-space: nowrap
+}
+
+#perfil {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: right
+}
+
+#fotoperfil {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+
+/*MAIN*/
+
+
+
+#dadosCadastrais {
+    color: rgba(36, 46, 71, 1);
+    font-family: 'MontSerrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;    
+}
+
+#colCadastro {
+    border: 1px solid rgba(190, 194, 206, 1);
+    border-radius: 8px;
+    padding: 0;
+}
+
+#col12 {
+    padding: 20px 35px;
+}
+
+h5 {
+    font-family: 'MontSerrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 13px;
+    margin-bottom: 0;
+    color: rgba(126, 132, 151, 1);
+}
+
+.divEditar {
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+}
+
+#lapis1 {
+    width: 16px;
+    height: 16px;
+}
+
+#alterarFoto {
+    text-decoration: none;
+}
+
+#FotoDePerfil1 {
+    width: 144px;
+    height: 144px;
+}
+
+#zeroPadding {
+    padding: 0;
+
+}
+
+#zeroPadding1 {
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+#zeroContato {
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+#zeroContato1 {
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+#botaoEditar {
+    border: none;
+    background: white;
+}
+
+#nomeDoador {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(36, 46, 71, 1);
+    padding-bottom: 5px;
+}
+
+#nomeDoador1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(36, 46, 71, 1);
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+#textoBox {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 1);
+    margin: 0;
+}
+
+.div_perfil {
+    background-color: #E8F4F4;
+    background: linear-gradient(180deg, #fff 0%, #fff 0%, rgba(232, 244, 244, 1) 0%, rgba(232, 244, 244, 1) 54%, #fff 54%, #fff 54%);
+}
+  
+.overflow_add_cad {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 550px;
+}
+  
+.overflow_med_quero {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 550px;
+}
+  
+#texto_div {
+    padding: 0;
+    padding-top: 54px;
+    margin: 0;
+}
+  
+  #nome {
+    margin: 0;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: #242E47;
+  }
+  
+  .alterar_imagem {
+    color: #6F6F6F;
+    font-family: 'Montserrat'; 
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  #imagem_perfil {
+    padding-top: 21px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  #inserir_cad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #BEC2CE;
+    height: 86px;
+  }
+  
+  #a_add_cad {
+    text-decoration: none;
+  }
+  
+
+  
+  #medicamento1 {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #BEC2CE;
+    height: 88px;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+  
+  #lapis {
+      padding-left: 10px;
+      padding-bottom: 5px;
+
+  }
+  
+  .foto_texto {
+    display: flex;
+  }
+  
+  #medicamento_ultimo {
+    height: 72px;
+    display: flex;
+    align-items: center;
+
+  }
+  
+  #medicamento_ultimo2 {
+    height: 158px;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  #unidade {
+    font-size: 13px;
+    font-weight: 400;
+    color: #242E47;
+    margin: 0;
+    padding-left: 27px;
+  }
+  
+  #vermifugo {
+    font-size: 14px;
+    font-weight: 600;
+    color: #242E47;
+    margin: 0;
+    padding-left: 27px;
+  }
+  
+  #texto_inserir_cad {
+    color: #242E47;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 12px;
+    margin: 0;
+  }
+  
+  #titulo_cad {
+    font-size: 20px;
+    font-weight: 600;
+    color: #242E47;
+    padding-bottom: 15px;
+  }
+
+#med_cadastrado{
+    padding-left: 0;
+}
+
+#med_quero{
+    padding-right: 0;
+}
+
+#caixa-medicamento{
+    border: 1px solid #BEC2CE;
+    border-radius: 8px;
+}
+
+#alinhar{
+    display: flex;
+    align-items: center;
+}
+
+#ativo{
+    font-weight: 700;
+    font-size: 11px;
+    color: #242E47;
+}
+
+#container-medicamentos{
+    padding-bottom: 80px;
+}
+
+/* Footer */
+
+  footer {
+    margin-top: auto;
+}
+
+
+.container-footer {
+    background-color: rgba(232, 244, 244, 1);
+    padding: 30px 0;
+}
+
+#footer {
+    margin: 0;
+    color: rgba(36, 46, 71, 1);
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+#logopuc {
+    padding-bottom: 10px;
+}

@@ -1,0 +1,152 @@
+/*Fonte MontSerrat do Google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+
+/*Gerais*/
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+#body {
+    font-family:'Montserrat';
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 20px 0;  
+}
+
+p {
+    margin: 0;
+}
+
+
+
+/* Reader */
+
+header, .navbar {
+    background-color: white;
+}
+
+#container-header{
+    padding: 20px 0;  
+}
+
+
+#links {
+    padding: 0 35px;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+}
+
+#login-cadastro {
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    margin: 0;
+    white-space: nowrap
+}
+
+#link-login-cadastro {
+    padding: 0;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    white-space: nowrap
+
+}
+
+a#link-login-cadastro {
+    text-decoration: none;
+    color: rgba(208, 108, 120, 1);
+    font-weight: 700;
+    white-space: nowrap
+}
+
+#perfil {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: right
+}
+
+#fotoperfil {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+/* Main */
+
+#titulo-cadastro{
+    font-size: 36px;
+    font-weight: 700;
+    background-color:rgba(232, 244, 244, 1);
+    height: 113px;
+    color: rgba(36, 46, 71, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+  }
+ 
+#cadastro{
+    margin: 0;
+}
+
+  #botao_cadastrar {
+    background-color: rgba(36, 46, 71, 1);
+    width: 132px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    height: 36px;
+    border: none;
+    padding: 0;
+  }
+
+
+  .form-label {
+      font-size: 15px;
+      font-weight: 400;
+      color: rgba(36, 46, 71, 1);
+  }
+
+  #container_conteudo {
+      padding-top: 50px;
+      padding-bottom: 80px;
+  }
+
+  
+
+/* Footer */
+  
+footer {
+    margin-top: auto;
+}
+
+
+.container-footer {
+    background-color: rgba(232, 244, 244, 1);
+    padding: 30px 0;
+}
+
+#footer {
+    margin: 0;
+    color: rgba(36, 46, 71, 1);
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+#logopuc {
+    padding-bottom: 10px;
+}
