@@ -1,0 +1,306 @@
+/*Fonte Montserrat do Google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+
+/*Gerais*/
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family:'Montserrat';
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 20px 0;  
+}
+
+p {
+    margin: 0;
+}
+
+
+
+/* Reader */
+
+header, .navbar {
+    background-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 35px;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+}
+
+#login-cadastro {
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    margin: 0;
+    white-space: nowrap
+}
+
+#link-login-cadastro {
+    padding: 0;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+    font-weight: 500;
+    white-space: nowrap
+
+}
+
+a#link-login-cadastro {
+    text-decoration: none;
+    color: rgba(208, 108, 120, 1);
+    font-weight: 700;
+    white-space: nowrap
+}
+
+#perfil {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: right
+}
+
+#fotoperfil {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+/* Conteúdo Quem Somos */
+
+#faixa-quem-somos {
+    background: linear-gradient(180deg, #fff 0%, #fff 10%, rgba(232, 244, 244, 1) 10%, rgba(232, 244, 244, 1) 90%, #fff 90%, #fff 100%);
+}
+
+#imagem-menina-cachorro{
+    text-align: center;
+}
+
+#quem-somos {
+    color: rgba(36, 46, 71, 1);
+    font-weight: 900;
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+#texto-quem-somos {
+    color: rgba(36, 46, 71, 1);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+
+/* Conteúdo Nossa Missão */
+
+#container-nossa-missao {
+    padding-bottom: 70px;
+    padding-top: 0;
+}
+
+#nossa-missao {
+    color: rgba(36, 46, 71, 1);
+    font-weight: 900;
+    font-size: 48px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#caixa-coracao {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#texto-nossa-missao {
+    color: rgba(36, 46, 71, 1);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* Caixas Quero Doar/Quero Receber */
+
+#caixa-quero-doar {
+    width: 630px;
+    height: 441px;
+    border: 2px solid rgba(26, 190, 181, 1);
+    border-radius: 10px;
+}
+
+#conteudo-quero-doar {
+    text-align: center;
+    padding: 30px;
+}
+
+#texto-quero-doar-receber {
+    color: rgba(36, 46, 71, 1);
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#quero-doar{
+    width: 100%;
+    height: 64px;
+    background: rgba(26, 190, 181, 1);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a#botao-quero-doar{
+    text-decoration: none;
+}
+
+#quero-receber {
+    width: 100%;
+    height: 64px;
+    background: rgba(209, 109, 121, 1);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixa-quero-receber {
+    width: 630px;
+    height: 441px;
+    border: 2px solid rgba(209, 109, 121, 1);
+    border-radius: 10px;
+    float: right;
+}
+
+#conteudo-quero-receber {
+    text-align: center;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+a#botao-quero-receber {
+    text-decoration: none;
+}
+
+
+/* Slide Depoimentos */
+
+#titulo-depoimentos {
+    text-align: center;
+    color: rgba(36, 46, 71, 1);
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 63px;
+    margin-bottom: 10px;
+}
+
+#imagem-depoimento {
+    width: 100%;
+}
+
+section{
+    position: relative;  
+    height: 450px;
+    width: 1075px;
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide {
+    border: white;
+}
+
+section.container{
+    padding: 0;
+    height: 100%;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+.swiper{
+  width: 1030px;
+}
+
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2px;
+    position: relative;
+    width: 500px;
+}
+
+.swiper-pagination{
+    position: absolute;
+    top: 100%;
+}
+
+.swiper-pagination-bullet{
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+    background: rgba(36, 46, 71, 1);
+}
+  
+.swiper-button-next, .swiper-button-prev{
+    opacity: 0.3;
+    color: rgba(36, 46, 71, 1);
+    transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    opacity: 1;
+    color: rgba(36, 46, 71, 1);
+} 
+
+
+/* Footer */
+  
+footer {
+    margin-top: auto;
+}
+
+
+.container-footer {
+    background-color: rgba(232, 244, 244, 1);
+    padding: 30px 0;
+}
+
+#footer {
+    margin: 0;
+    color: rgba(36, 46, 71, 1);
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+#logopuc {
+    padding-bottom: 10px;
+}
