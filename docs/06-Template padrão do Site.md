@@ -17,7 +17,7 @@ Para visualizar o template é só acessar o repositório do grupo [aqui](https:/
 
 A responsividade do site segue o padrão do Bootstrap.
   
-##Tela – Homepage
+## Tela – Homepage
  
 Objetivo: ser a primeira página que os usuários veem ao acessar a URL do site. 
 
@@ -34,7 +34,7 @@ Objetivo: ser a primeira página que os usuários veem ao acessar a URL do site.
 - Ao clicar no botão “Quero Receber” o usuário será redirecionado para a tela de visualização de Medicamentos; 
 - Ao final da página serão exibidos alguns depoimentos sobre a REDOM-PET e o rodapé. 
 
-##Tela – Login 
+## Tela – Login 
  
 Objetivo: O sistema deve permitir o login do usuário cadastrado. 
 
@@ -45,7 +45,7 @@ Objetivo: O sistema deve permitir o login do usuário cadastrado.
 - Em caso de esquecer a senha deverá clicar em “Esqueci a senha” e prosseguir para outra página para recuperá-la; 
 - Caso não tenha realizado o cadastro ainda, o usuário deverá clicar em “Quero me cadastrar” e prosseguir com o cadastro em outra tela.
 
-##Tela – Cadastro de Usuário 
+## Tela – Cadastro de Usuário 
 
 Objetivo: Realizar o cadastro do usuário através do preenchimento das suas informações pessoais.  
 
@@ -54,7 +54,7 @@ Objetivo: Realizar o cadastro do usuário através do preenchimento das suas inf
 - Na tela “Cadastro de Usuário” o usuário deverá preencher os respectivos campos com suas informações pessoais como nome completo, data de nascimento, endereço e telefone; 
 - Em seguida, o usuário deverá colocar um e-mail e uma senha para efetivar o cadastro que, posteriormente, serão usados para o login no site.
 
-##Tela – Perfil do Usuário 
+## Tela – Perfil do Usuário 
 
 Objetivo: Visualizar as informações de cadastro do usuário, como também a lista de medicamentos cadastrados pelo usuário e a lista com os medicamentos que ele deseja ter. 
 
@@ -66,7 +66,7 @@ Objetivo: Visualizar as informações de cadastro do usuário, como também a li
 - Nessa tela o usuário visualizará os medicamentos que ele cadastrou para doação em forma de listagem tendo a opção de desativar ou ativar o anúncio do medicamento, editar as informações do medicamento ao clicar no ícone “lápis” e tirar o medicamento da listagem quando clicar no ícone “x”. No mesmo local, o usuário terá também a opção de “Cadastrar novo medicamento” caso ele tenha mais medicamentos para doação. 
 - O usuário poderá acompanhar em uma listagem os medicamentos que ele marcou como “Eu Quero”, podendo clicar no nome do medicamento para ser redirecionado a tela de Informações de Medicamento do mesmo. 
  
-##Tela – Edição do Medicamento 
+## Tela – Edição do Medicamento 
 
 Objetivo: Permitir a edição das informações do medicamento. 
 
@@ -76,7 +76,7 @@ Objetivo: Permitir a edição das informações do medicamento.
 - Na opção de “Tipo de Medicamento” ele poderá escolher os seguintes tipos: comprimido, líquido, spray, granulado, creme e outros; 
 - Ao finalizar a edição deverá clicar em “Salvar” para que as alterações sejam salvas. 
  
-##Tela – Medicamentos 
+## Tela – Medicamentos 
 
 Objetivos: Visualizar os medicamentos cadastrados no site pelos doadores.  
 
@@ -86,7 +86,7 @@ Objetivos: Visualizar os medicamentos cadastrados no site pelos doadores.
 - O usuário visualizará os medicamentos que pesquisou; 
 - Ao clicar no botão “Mais informações” será encaminhado para uma página onde poderá visualizar, em detalhes, as informações do medicamento. 
  
-##Tela - Informações do Medicamento 
+## Tela - Informações do Medicamento 
  
 Objetivo: Permitir a visualização das informações do medicamento, assim como as informações de contato do doador. 
 
@@ -96,7 +96,7 @@ Objetivo: Permitir a visualização das informações do medicamento, assim como
 - Essa página contará com um botão “Eu quero” para sinalizar o interesse do receptor naquele medicamento; 
 - Ao clicar no botão “Eu quero” aparecerá para o receptor as informações de contato com o doador, como nome, telefone e e-mail. 
  
-##Tela – Cadastro de Medicamento 
+## Tela – Cadastro de Medicamento 
 
 Objetivo: Permitir o cadastro de um medicamento para possível doação através de informações relevantes como, nome, quantidade, data de validade, entre outros.  
 
