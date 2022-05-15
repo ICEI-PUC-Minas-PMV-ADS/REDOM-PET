@@ -24,10 +24,10 @@ A solução implementada conta com os seguintes módulos:
 
 Para a implementação da solução faremos uso de algumas tecnologias, tal como o Visual Studio Code (VS Code), trata-se de um editor de código-fonte - também conhecido como IDE de desenvolvimento – foi escolhido por ser de fácil utilização. A equipe faz uso da ferramenta de comunicação da Microsoft, o Teams, onde acontece as reuniões com a orientadora do projeto. 
 Para a criação dos wireframes e protótipos foi escolhido o Figma por se tratar de uma ferramenta de design para interfaces com possibilidade de trabalho colaborativo, além da forma intuitiva como ele se apresenta. Para uma segurança dos arquivos, definimos o OneDrive, serviço de armazenamento em nuvem da Microsoft, como ferramenta de backup e armazenamento. 
-O GitHub também está sendo utilizado por se tratar de um serviço baseado em nuvem e que hospeda um sistema de controle de versão – o Git –. Para a hospedagem da nossa aplicação será utilizado o Microsoft Azure.  
+O GitHub também está sendo utilizado por se tratar de um serviço baseado em nuvem e que hospeda um sistema de controle de versão – o Git –. Para a hospedagem da nossa aplicação será utilizado o GitHub Pages, trata-se de um serviço de hospedagem de site estático que usa arquivos HTML, CSS e JavaScript diretamente de um repositório no GitHub.
 Pela equipe ser iniciante na área e não ter conhecimento de frameworks ainda, utilizaremos as linguagens ensinadas na disciplina de Desenvolvimento Web Front-End que são: HTML, CSS e JavaScript. 
 
 ## Hospedagem
 
-O site do projeto utiliza a plataforma Microsoft Azure como serviço de hospedagem. O site pode ser [acessado aqui](https://testeredompet.azurewebsites.net/).
+O site do projeto utiliza a plataforma GitHub Pages como serviço de hospedagem. O site pode ser [acessado aqui](https://icei-puc-minas-pmv-ads.github.io/REDOM-PET/).
 

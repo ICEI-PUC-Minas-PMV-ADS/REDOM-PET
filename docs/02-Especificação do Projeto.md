@@ -82,7 +82,7 @@ Os requisitos funcionais do projeto e seus respectivos níveis de prioridade de 
 |RF-10| O site deverá conter um botão para o doador pausar o anúncio e quando esse botão for acionado, o contato com o doador será suspenso. | ALTA |
 |RF-11| O site deve ter um botão que permita a exclusão do remédio pelo doador quando ele desejar ou fizer a doação do mesmo. | ALTA |
 |RF-12| O site deve ter em sua homepage a missão e informações sobre a REDOM-PET (Rede de Doação de Medicamentos para PET), assim como um botão de “Quero Doar” e um botão de “Quero Receber” e uma seção dedicada aos depoimentos. | MÉDIA |
-
+|RF-13| O site deve permitir a edição das informações do medicamento cadastrado. | MÉDIA |
 
 ### Requisitos não Funcionais
 
