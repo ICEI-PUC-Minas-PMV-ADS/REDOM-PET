@@ -12,7 +12,7 @@ Nesta seção são apresentadas as telas desenvolvidas pelo grupo em HTML e CSS 
 
 - RF-12: O site deve ter em sua homepage a missão e informações sobre a REDOM-PET (Rede de Doação de Medicamentos para PET), assim como um botão de “Quero Doar” e um botão de “Quero Receber” e uma seção dedicada aos depoimentos.
  
-### tefatos da funcionalidade 
+### Artefatos da funcionalidade 
 - index.html 
 - style.css 
 - logo.png 
