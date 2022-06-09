@@ -149,7 +149,7 @@ function logar() {
     senha: ''
   }
 
-  if (email == '' && senha == '' || dados_usuarios == null) {
+  if (email == '' && senha == '' ||  banco_dados == null) {
     msgError.setAttribute ('style', 'display: block')
     msgError.innerHTML = 'Usuário e senha incompleto/inexistente'
 }else{
