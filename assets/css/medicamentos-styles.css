@@ -32,183 +32,213 @@ p {
 
 /* Reader */
 
+#logo {
+    width: 360px;
+}
+
 header, .navbar {
     background-color: white;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0 35px;
+    padding: 0 50px;
     padding-bottom: 5px;
     color:rgba(36, 46, 71, 1);
-    font-weight: 500;
 }
 
-#login-cadastro {
-    color:rgba(36, 46, 71, 1);
+.nav-link {
+    font-size: 17px;
     font-weight: 500;
-    margin: 0;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
-#link-login-cadastro {
-    padding: 0;
-    padding-bottom: 5px;
-    color:rgba(36, 46, 71, 1);
-    font-weight: 500;
-    white-space: nowrap
-
-}
-
-a#link-login-cadastro {
-    text-decoration: none;
-    color: rgba(208, 108, 120, 1);
+.nav-link:hover{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
     font-weight: 700;
-    white-space: nowrap
+    white-space: nowrap;
+}
+
+#link-quero-receber{
+    font-weight: 700;
 }
 
 #perfil {
     padding-top: 20px;
-    padding-left: 50px;
-    padding-bottom: 20px;
-    text-align: right
+    padding-left: 0;
+    padding-bottom: 30px;
+    width: 250px;
+    text-align: right;
 }
 
-#fotoperfil {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-bottom: 20px;
+#login-cadastro{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(208, 108, 120, 1);
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    text-decoration: none;
 }
 
-
-/* Conteúdo Quem Somos */
-
-#faixa-quem-somos {
-    background-color: rgba(232, 244, 244, 1);
-    background: linear-gradient(180deg, #fff 0%, #fff 10%, rgba(232, 244, 244, 1) 10%, rgba(232, 244, 244, 1) 90%, #fff 90%, #fff 100%);
+#login-cadastro:hover {
+    color: rgb(189, 95, 106);
+    text-decoration: underline;
 }
 
-#imagem-menina-cachorro{
-    text-align: center;
-}
-
-#quem-somos {
+#deslogar {
+    font-weight: 500;
+    font-size: 15px;
     color: rgba(36, 46, 71, 1);
-    font-weight: 900;
-    font-size: 48px;
-    padding-bottom: 10px;
+    line-height: 90%;
+    text-decoration: none;
+    padding: 0;
 }
 
-#texto-quem-somos {
-    color: rgba(36, 46, 71, 1);
+#deslogar:hover {
+    opacity: 90%;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    padding-bottom: 15px;
 }
+
 
 /* Conteúdo Medicamentos */
-#faixa-pesquisa-medicamentos{
-    background-color: rgba(232, 244, 244, 1);
-    height: 200px;
-}
+
 
 #titulo-medicamento{ 
+    padding: 35px 0;
+    background-color: rgba(232, 244, 244, 1);
+    color: rgba(36, 46, 71, 1);
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
-    color:rgba(36, 46, 71, 1);
-    text-align: center;
-   padding-top: 45px;
-   padding-bottom: 0;
-
-
-}
-#input_pesquisa{
-    border:none; 
+    margin: 0;
 }
 
-i{
-    color:rgba(36, 46, 71, 1);
-}
 #Texto-secundario{
     font-size: 20px;
     font-weight: 600px;
     color: rgba(36, 46, 71, 1);
     padding-top: 41px;
 }
-#caixa-medicamento{
+
+.caixa-medicamento{
     border: 1px solid rgba(167, 183, 183, 1);
     border-radius: 8px;
-    height: 288px;
-    width: 270px;
+    height: 490px;
+    width: 95%;
+    margin: 8px 8px;
+    padding: 17px;
+    text-align: center;
 }
+
+.caixa-medicamento2 {
+    height: 206px;
+    width: 100%;
+    background-color: #242E47;
+    padding: 15px 25px;
+    text-align: start;
+    margin-top: 9px;
+    border-radius: 6px;
+}
+
+.nome_medicamento {
+    color: #242E47;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 2px;
+}
+
+.info1 {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info_data {
+    font-size: 14px;
+    padding-bottom: 15px;
+    line-height: 17px;
+}
+
+.info2 {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.titulo1 {
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.titulo2 {
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
 #conteudo-medicamento{
     padding: 17px;
     text-align: center;
     
 }
-#medicamento{
-    font-size: 15px;
+.medicamento{
+    font-size: 18px;
     font-weight: 600;
     color:rgba(36, 46, 71, 1);
 }
-#quantidade{
-    font-size: 14px;
+.quantidade{
+    font-size: 15px;
     font-weight: 400;
     color:black;
     padding-bottom: 8px;    
 }
-a#botao-mais-informacoes{
-    text-decoration: none;
-}
-#mais-informacoes{
-    font-size: 15px;
-    font-weight: 700px;
-    color:white;
-    margin: 0;
-    height: 42px;
-    width: 100%;
-    background-color:rgba(36, 46, 71, 1);
-    border-radius: 6px;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#container-central{
-    width: 1200px;
-    padding: 15px 0;
-}
-#imagens-medicamentos{
-    padding: 25px;
-}
-#botao-informacao{
-    padding-top: 7px;
-}
-.page-link {
-    color: rgba(171, 171, 171, 1);
-    border: 0;
+
+.editar_imagem_med {
+    width: 140px;
+    height: 140px;
+    padding-bottom: 10px;
 }
 
-.page-link:hover{
-    color: rgba(36, 46, 71, 1);
+#nova_div{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0;
 }
-#input_pesquisa {
-    border: none;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+
+#container-central{
+    padding: 0 0 80px 0;
+
 }
-#icone_pesquisa {
-    border: none;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+
+#msg-sem-medicamentos{
+    display: none;
+    font-size: 16px;
+    color: rgb(184, 184, 184);
+    border: 1px solid rgba(200, 200, 200, 1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
 }
+
     
 /* Footer */
   
 footer {
     margin-top: auto;
 }
-
 
 .container-footer {
     background-color: rgba(232, 244, 244, 1);
@@ -220,8 +250,376 @@ footer {
     color: rgba(36, 46, 71, 1);
     font-size: 12px;
     padding-right: 20px;
+    text-align: right;
+}
+
+#logo-rodape{
+    width: 266px;
 }
 
 #logopuc {
     padding-bottom: 10px;
+}
+
+#logo-puc-rodape{
+    width: 84px;
+}
+
+#texto-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .container{
+        padding: 15px 15px;
+    }
+
+    #logo {
+        width: 200px;
+    }
+
+    #perfil{
+        padding: 0;
+        padding-top: 10px;
+        text-align: left;
+    }
+    
+    #login-cadastro{
+        font-size: 12px;
+    }
+
+    #deslogar{
+        font-weight: 600;
+        font-size: 11px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 0;
+    }
+    
+    .nav-link {
+        font-size: 12px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    #home {
+        padding-top: 25px;
+    }
+
+    #titulo-medicamento{
+        padding: 25px 0;
+        font-size: 20px;
+    }
+
+    #Texto-secundario{
+        font-size: 15px;
+        padding-top: 30px;
+    }
+
+    #container-central{
+        padding: 0 15px 80px 15px;
+    }
+
+    #caixa-medicamento{
+        width: 100%;
+    }
+    #informacao-doador{
+        width: 100%;
+    }
+
+    .container-footer {
+        background-color: rgba(232, 244, 244, 1);
+        padding: 20px 0;
+    }
+    
+    #footer {
+        font-size: 10px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+
+    #logo-rodape{
+        width: 200px;
+    }
+
+    #logopuc {
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-puc-rodape{
+        width: 55px;
+    }
+
+    #rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #texto-rodape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nova_div{
+        grid-template-columns: 100%;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    .container{
+        padding: 15px 20px;
+    }
+
+    #logo {
+        width: 250px;
+    }
+
+    #perfil{
+        padding: 0;
+        padding-top: 10px;
+        text-align: left;
+    }
+    
+    #nome-usuario{
+        font-size: 14px;
+    }
+
+    #deslogar{
+        font-weight: 600;
+        font-size: 11px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 0;
+    }
+    
+    .nav-link {
+        font-size: 14px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    #home {
+        padding-top: 25px;
+    }
+
+    #container-central{
+        padding: 0 15px 80px 15px;
+    }
+   
+    #titulo-medicamento{
+        padding: 25px 0;
+        font-size: 26px;
+    }
+
+    #Texto-secundario{
+        font-size: 18px;
+    }
+
+    #faixa-pesquisa-medicamentos{
+        height: 80px;
+    }
+
+    .container-footer {
+        background-color: rgba(232, 244, 244, 1);
+        padding: 20px 0;
+    }
+    
+    #footer {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+
+    #logo-rodape{
+        width: 200px;
+    }
+
+    #logopuc {
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-puc-rodape{
+        width: 55px;
+    }
+
+    #rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #texto-rodape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    #nova_div{
+        grid-template-columns: 50% 50%;
+    }
+
+    .caixa-medicamento2 {
+        padding: 15px 15px;
+    }
+
+    .titulo1 {
+        font-size: 12px;
+    }
+
+ }
+
+ @media (min-width: 769px) and (max-width: 990px){
+
+    .container{
+        padding: 15px 20px;
+    }
+
+    #logo {
+        width: 260px;
+    }
+
+    #perfil{
+        padding: 0;
+        padding-top: 10px;
+        text-align: left;
+    }
+    
+    #login-cadastro{
+        font-size: 16px;
+    }
+
+    #deslogar{
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 0;
+    }
+    
+    .nav-link {
+        font-size: 16px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    #home {
+        padding-top: 25px;
+    }
+
+    #titulo-medicamento{
+        padding: 35px 0;
+        font-size: 30px;
+    }
+
+    #Texto-secundario{
+        font-size: 20px;
+    }
+    #container-central{
+        padding: 5px 30px;
+    }
+    #faixa-pesquisa-medicamentos{
+        height: 80px;
+    }
+
+    .container-footer {
+        background-color: rgba(232, 244, 244, 1);
+        padding: 20px 0;
+    }
+    
+    #footer {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+
+    #logo-rodape{
+        width: 200px;
+    }
+
+    #logopuc {
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-puc-rodape{
+        width: 55px;
+    }
+
+    #rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #texto-rodape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    #nova_div{
+        grid-template-columns: 50% 50%;
+    }
+
+ }
+
+ @media (min-width: 991px) and (max-width: 1400px) {
+
+    #logo {
+        width: 290px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 25px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    #login-cadastro{
+        font-size: 16px;
+    }
+
+    #deslogar{
+        font-size: 14px;
+        line-height: 90%;
+    }
+
+    #perfil {
+        width: 200px;
+    }
+
+    #titulo-medicamento{
+        padding: 35px 0;
+        font-size: 30px;
+    }
+
+    #nova_div{
+        grid-template-columns: 33% 33% 33%;
+    }
 }

@@ -1,0 +1,267 @@
+/*Fonte MontSerrat do Google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+/*Gerais*/
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family:'Montserrat';
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 20px 0;  
+}
+
+p {
+    margin: 0;
+}
+
+/* Editando a logo */
+
+#logo {    
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+#logoo {
+    width: 360px;
+}
+
+/*Texto sobre o propósito da REDOM-PET*/
+
+#texto-login {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Main */
+
+.container-login-azul {
+    height: 471px;
+    background: rgba(197, 220, 220, 1);
+    margin-top: 80px;   
+}
+#container-login {
+    padding: 0;
+}
+
+#foto-cachorro {
+    position: relative; 
+    top: 32px;
+    padding-right: 90px;
+}
+
+.card-login {
+    margin-top: 99px;    
+}
+
+legend {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgba(36, 46, 71, 1);
+}
+
+#msgError {
+    display: none;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(187, 97, 107);
+    background-color: rgb(255, 235, 237);
+}
+
+.textfield {    
+    margin: 10px 0px;
+}
+
+.textfield > input {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background: white;
+    font-size: 10pt;
+    box-shadow: black;
+    outline: none;
+    box-sizing: border-box;
+    height: 41px;
+    width: 100%;   
+}
+
+.textfield > input:focus {
+    border: 2px solid rgba(36, 46, 71, 1);
+}
+
+.btn-entrar {
+    margin-top: 5px;
+    /* margin-right: 95px; */
+    background: rgba(36, 46, 71, 1);
+    color: white;
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.btn-entrar:hover {
+    z-index: 2;
+    -webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(1.03);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(1.03);   
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(1.03);
+    transition: all 100ms ease-in;
+    transform: scale(1.03);
+}
+
+.forgot {
+    color: rgba(36, 46, 71, 1);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cadastrar {
+    color: rgba(208, 108, 120, 1);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.cadastrar:hover {
+    color: rgb(187, 97, 107);
+    text-decoration: underline;
+}
+
+.cadastro {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/*Trabalhando a responsividade*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #logo {
+        padding: 40px 0 20px;
+    }
+
+    #logoo {
+        width: 220px;
+    }
+
+    #texto-login {
+        font-size: 13px;
+        margin: 0 10px;
+        padding: 20px 10px;
+    }
+
+    #foto-cachorro {
+        display: none;
+    }
+
+    .container {
+        padding: 0;
+        border: 0;
+    }
+
+    .container-login-azul {
+        height: 350px;
+        margin-top: 10px;
+    }
+
+    legend {
+        font-size: 25px;
+        padding-bottom: 10px;        
+    }
+
+    .card-login {
+        margin-top: 30px; 
+        margin-left: 5px; 
+        margin-right: 5px;  
+    }
+
+    .cadastro {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    #logoo {
+        width: 280px;
+    }
+
+    #texto-login {
+        font-size: 13px;
+        margin: 0 10px;
+        padding: 10px;
+    }
+
+    #foto-cachorro {
+        display: none;
+    }
+
+    .container-login-azul{
+        margin-top: 20px;
+    }
+
+    legend {
+        font-size: 25px;        
+    }
+
+    .card-login {
+        margin-top: 30px; 
+        margin-left: 5px; 
+        margin-right: 5px; 
+        padding: 20px; 
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+    #logoo {
+        width: 300px;
+    }
+
+    .container-login-azul{
+        margin-top: 20px;
+    }
+
+    #texto-login {
+        font-size: 20px;
+        margin: 0 50px;
+        padding: 20px;
+    }
+
+    #foto-cachorro {
+        display: none;
+    }
+
+    .card-login {
+        padding: 10px;
+        margin-top: 40px;
+    }
+}

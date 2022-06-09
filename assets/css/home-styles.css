@@ -1,0 +1,878 @@
+/*Fonte Montserrat do Google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+
+/*Gerais*/
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family:'Montserrat';
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 20px 0;  
+}
+
+p {
+    margin: 0;
+}
+
+
+
+/* Reader */
+
+#logo {
+    width: 360px;
+}
+
+header, .navbar {
+    background-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 50px;
+    padding-bottom: 5px;
+    color:rgba(36, 46, 71, 1);
+}
+
+.nav-link {
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.nav-link:hover{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+#home{
+    font-weight: 700;
+}
+
+#perfil {
+    padding-top: 20px;
+    padding-left: 0;
+    padding-bottom: 30px;
+    width: 250px;
+    text-align: right;
+}
+
+#login-cadastro{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(208, 108, 120, 1);
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#login-cadastro:hover {
+    color: rgb(189, 95, 106);
+    text-decoration: underline;
+}
+
+#deslogar {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(36, 46, 71, 1);
+    line-height: 90%;
+    text-decoration: none;
+    padding: 0;
+}
+
+#deslogar:hover {
+    opacity: 90%;
+    font-weight: 600;
+}
+
+
+/* Conteúdo Quem Somos */
+
+#faixa-quem-somos {
+    background: linear-gradient(180deg, #fff 0%, #fff 10%, rgba(232, 244, 244, 1) 10%, rgba(232, 244, 244, 1) 90%, #fff 90%, #fff 100%);
+}
+
+#imagem-menina-cachorro{
+    text-align: center;
+}
+
+#menina-cachorro {
+    width: 467px;
+}
+
+#quem-somos {
+    color: rgba(36, 46, 71, 1);
+    font-weight: 900;
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+#texto-quem-somos {
+    color: rgba(36, 46, 71, 1);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+
+
+/* Caixas Quero Doar/Quero Receber */
+
+#caixas-doar-receber{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+#caixas {
+    padding-top: 0;
+}
+
+#caixa-quero-doar {
+    width: 630px;
+    height: 441px;
+    border: 2px solid rgba(26, 190, 181, 1);
+    border-radius: 10px;
+}
+
+#caixa-quero-doar:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.03);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.03);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.03);
+    transition: all 200ms ease-in;
+    transform: scale(1.03);
+}
+
+#imagem-quero-doar{
+    width: 503px;
+}
+
+#imagem-quero-receber{
+    width: 503px;
+}
+
+#conteudo-quero-doar {
+    text-align: center;
+    padding: 30px;
+}
+
+#texto-quero-doar-receber {
+    color: rgba(36, 46, 71, 1);
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#quero-doar{
+    width: 100%;
+    height: 64px;
+    background: rgba(26, 190, 181, 1);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quero-doar:hover{
+    opacity: 80%;
+}
+
+a#botao-quero-doar{
+    text-decoration: none;
+}
+
+#quero-receber {
+    width: 100%;
+    height: 64px;
+    background: rgba(209, 109, 121, 1);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quero-receber:hover{
+    opacity: 80%;
+}
+
+#caixa-quero-receber {
+    width: 630px;
+    height: 441px;
+    border: 2px solid rgba(209, 109, 121, 1);
+    border-radius: 10px;
+    float: right;
+}
+
+#caixa-quero-receber:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.03);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.03);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.03);
+    transition: all 200ms ease-in;
+    transform: scale(1.03);
+}
+
+#conteudo-quero-receber {
+    text-align: center;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+a#botao-quero-receber {
+    text-decoration: none;
+}
+
+
+/* Footer */
+  
+footer {
+    margin-top: auto;
+}
+
+.container-footer {
+    background-color: rgba(232, 244, 244, 1);
+    padding: 30px 0;
+}
+
+#footer {
+    margin: 0;
+    color: rgba(36, 46, 71, 1);
+    font-size: 12px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+#logo-rodape{
+    width: 266px;
+}
+
+#logopuc {
+    padding-bottom: 10px;
+}
+
+#logo-puc-rodape{
+    width: 84px;
+}
+
+#texto-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+/* Responsividade */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .container{
+        padding: 15px 15px;
+    }
+
+    #logo {
+        width: 200px;
+    }
+
+    #perfil{
+        padding: 0;
+        padding-top: 10px;
+        text-align: left;
+    }
+    
+    #login-cadastro{
+        font-size: 12px;
+    }
+
+    #deslogar{
+        font-weight: 600;
+        font-size: 11px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 0;
+    }
+    
+    .nav-link {
+        font-size: 12px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    #home {
+        padding-top: 25px;
+    }
+
+    #faixa-quem-somos {
+        background: linear-gradient(180deg, #fff 0%, #fff 10%, rgba(232, 244, 244, 1) 10%, rgba(232, 244, 244, 1) 100%);
+    }
+    
+    #imagem-menina-cachorro{
+        display: flex;
+        justify-content: center;
+    }
+
+    #menina-cachorro {
+        width: 270px;
+    }
+    
+    #quem-somos {
+        font-size: 30px;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+    #texto-quem-somos {
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    #caixas-doar-receber{
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    #caixa-quero-doar {
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+    }
+    
+    #imagem-quero-doar{
+        width: 100%;
+    }
+
+    #conteudo-quero-doar {
+        padding: 15px;
+    }
+    
+    #texto-quero-doar-receber {
+        font-size: 10px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 0;
+    }
+    
+    #quero-doar{
+        height: 35px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    #quero-receber {
+        height: 35px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    #imagem-quero-receber{
+        width: 100%;
+    }
+    
+    #caixa-quero-receber {
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+    }
+    
+    #conteudo-quero-receber {
+        padding: 15px;
+        padding-top: 5px;
+    }
+    
+    #caixas {
+        padding-top: 20px;
+    }
+  
+    
+    .container-footer {
+        background-color: rgba(232, 244, 244, 1);
+        padding: 20px 0;
+    }
+    
+    #footer {
+        font-size: 10px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+
+    #logo-rodape{
+        width: 200px;
+    }
+
+    #logopuc {
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-puc-rodape{
+        width: 55px;
+    }
+
+    #rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #texto-rodape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .container{
+        padding: 15px 20px;
+    }
+
+    #logo {
+        width: 250px;
+    }
+
+    #perfil{
+        padding: 0;
+        padding-top: 10px;
+        text-align: left;
+    }
+    
+    #login-cadastro{
+        font-size: 14px;
+    }
+
+    #deslogar{
+        font-weight: 600;
+        font-size: 11px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 0;
+    }
+    
+    .nav-link {
+        font-size: 14px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    #home {
+        padding-top: 25px;
+    }
+
+    #faixa-quem-somos {
+        background: linear-gradient(180deg, #fff 0%, #fff 10%, rgba(232, 244, 244, 1) 10%, rgba(232, 244, 244, 1) 100%);
+    }
+
+    #menina-cachorro {
+        width: 350px;
+    }
+    
+    #quem-somos {
+        font-size: 35px;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+    #texto-quem-somos {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    #caixas-doar-receber{
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    #caixa-quero-doar {
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+    }
+    
+    #imagem-quero-doar{
+        width: 100%;
+    }
+
+    #conteudo-quero-doar {
+        padding: 20px;
+    }
+    
+    #texto-quero-doar-receber {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 0;
+    }
+    
+    #quero-doar{
+        height: 50px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    #quero-receber {
+        height: 50px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+    #imagem-quero-receber{
+        width: 100%;
+    }
+    
+    #caixa-quero-receber {
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+    }
+    
+    #conteudo-quero-receber {
+        padding: 20px;
+        padding-top: 5px;
+    }
+    
+    #caixas {
+        padding-top: 20px;
+    }
+  
+    
+    .container-footer {
+        background-color: rgba(232, 244, 244, 1);
+        padding: 20px 0;
+    }
+    
+    #footer {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+
+    #logo-rodape{
+        width: 200px;
+    }
+
+    #logopuc {
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-puc-rodape{
+        width: 55px;
+    }
+
+    #rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #texto-rodape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+
+    .container{
+        padding: 15px 20px;
+    }
+
+    #logo {
+        width: 260px;
+    }
+
+    #perfil{
+        padding: 0;
+        padding-top: 10px;
+        text-align: left;
+    }
+    
+    #login-cadastro{
+        font-size: 16px;
+    }
+
+    #deslogar{
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 0;
+    }
+    
+    .nav-link {
+        font-size: 16px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    #home {
+        padding-top: 25px;
+    }
+
+    #faixa-quem-somos {
+        background: linear-gradient(180deg, #fff 0%, #fff 10%, rgba(232, 244, 244, 1) 10%, rgba(232, 244, 244, 1) 100%);
+    }
+
+    #menina-cachorro {
+        width: 390px;
+    }
+    
+    #quem-somos {
+        font-size: 38px;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+    #texto-quem-somos {
+        font-size: 20px;
+        line-height: 25px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    #caixas-doar-receber{
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    #caixa-quero-doar {
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+    }
+    
+    #imagem-quero-doar{
+        width: 100%;
+    }
+
+    #conteudo-quero-doar {
+        padding: 30px;
+    }
+    
+    #texto-quero-doar-receber {
+        font-size: 17px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 0;
+    }
+    
+    #quero-doar{
+        height: 50px;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    
+    #quero-receber {
+        height: 50px;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+
+    #imagem-quero-receber{
+        width: 100%;
+    }
+    
+    #caixa-quero-receber {
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+    }
+    
+    #conteudo-quero-receber {
+        padding: 30px;
+        padding-top: 5px;
+    }
+    
+    #caixas {
+        padding-top: 20px;
+    }
+  
+    .container-footer {
+        background-color: rgba(232, 244, 244, 1);
+        padding: 20px 0;
+    }
+    
+    #footer {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+
+    #logo-rodape{
+        width: 200px;
+    }
+
+    #logopuc {
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-puc-rodape{
+        width: 55px;
+    }
+
+    #rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #texto-rodape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+}
+
+
+@media (min-width: 991px) and (max-width: 1400px) {
+
+    #logo {
+        width: 290px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 25px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    #login-cadastro{
+        font-size: 16px;
+    }
+
+    #deslogar{
+        font-size: 14px;
+        line-height: 90%;
+    }
+
+    #perfil {
+        width: 200px;
+    }
+
+    #menina-cachorro {
+        width: 400px;
+    }
+
+    #quem-somos {
+        font-size: 40px;
+    }
+    
+    #texto-quem-somos {
+        font-size: 20px;
+    }
+
+    #caixas-doar-receber{
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    #caixa-quero-doar {
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+    }
+    
+    #imagem-quero-doar{
+        width: 100%;
+    }
+
+    #conteudo-quero-doar {
+        padding: 30px;
+    }
+    
+    #texto-quero-doar-receber {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 0;
+    }
+    
+    #quero-doar{
+        height: 50px;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    
+    #quero-receber {
+        height: 50px;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+
+    #imagem-quero-receber{
+        width: 100%;
+    }
+    
+    #caixa-quero-receber {
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+    }
+
+}

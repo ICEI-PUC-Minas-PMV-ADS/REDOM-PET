@@ -33,74 +33,59 @@ p {
 
 /* Reader */
 
-header, .navbar {
-    background-color: white;
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
 }
 
-#container-header{
-    padding: 20px 0;  
+#logo {
+    width: 360px;
 }
 
-
-#links {
-    padding: 0 35px;
-    padding-bottom: 5px;
-    color:rgba(36, 46, 71, 1);
-    font-weight: 500;
-}
-
-#login-cadastro {
-    color:rgba(36, 46, 71, 1);
-    font-weight: 500;
-    margin: 0;
-    white-space: nowrap
-}
-
-#link-login-cadastro {
-    padding: 0;
-    padding-bottom: 5px;
-    color:rgba(36, 46, 71, 1);
-    font-weight: 500;
-    white-space: nowrap
-
-}
-
-a#link-login-cadastro {
-    text-decoration: none;
-    color: rgba(208, 108, 120, 1);
-    font-weight: 700;
-    white-space: nowrap
-}
-
-#perfil {
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-bottom: 20px;
-    text-align: right
-}
-
-#fotoperfil {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-bottom: 20px;
-}
 
 /* Main */
 
-#titulo-cadastro{
+
+  #titulo-cadastro{
     font-size: 36px;
     font-weight: 700;
     background-color:rgba(232, 244, 244, 1);
     height: 113px;
+    width: 100%;
     color: rgba(36, 46, 71, 1);
     display: flex;
     align-items: center;
     justify-content: center ;
   }
+
+  #msg-campos-incompletos {
+    display: none;
+    padding: 8px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(187, 97, 107);
+    background-color: rgb(255, 235, 237);
+  }
  
-#cadastro{
+  #cadastro {
     margin: 0;
-}
+  }
+
+  #botao_voltar {
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    margin-top: 45px;
+    margin-left: 5px;
+  }
 
   #botao_cadastrar {
     background-color: rgba(36, 46, 71, 1);
@@ -112,41 +97,177 @@ a#link-login-cadastro {
     height: 36px;
     border: none;
     padding: 0;
+    margin-top: 45px;
   }
 
+  /*hoverbotaocad*/
+  #botao_cadastrar:hover {
+    z-index: 2;
+    -webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(1.03);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(1.03);   
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(1.03);
+    transition: all 100ms ease-in;
+    transform: scale(1.03);
+    opacity: 95%;
+  }
+
+  #botão-voltar:hover {
+      opacity: 80%;
+  }
+
+  a#botão-voltar{
+      text-decoration: none;
+  }
 
   .form-label {
       font-size: 15px;
       font-weight: 400;
       color: rgba(36, 46, 71, 1);
+      white-space: nowrap;
+      padding-top: 15px;
   }
 
   #container_conteudo {
-      padding-top: 50px;
+      padding-top: 40px;
       padding-bottom: 80px;
+  }
+
+  .form-control {
+      width: 100%;
+  }
+
+  #msg-error-nome{
+    color: rgb(220, 87, 103);
+    font-size: 13px;
+  }
+
+  #inputEmail4:invalid{
+    border: 1px solid rgb(220, 87, 103);
+  }
+
+  #inputEmail4:focus:invalid{
+    box-shadow: none
+  }
+
+  #error-email{
+    color: rgb(220, 87, 103);
+    font-size: 13px;
+  }
+
+  #inputtelefone:invalid{
+    border: 1px solid rgb(220, 87, 103);
+  }
+
+  #inputtelefone:focus:invalid{
+    box-shadow: none
+  }
+
+  #msg-erro-telefone{
+    color: rgb(220, 87, 103);
+    font-size: 13px;
   }
 
   
 
-/* Footer */
-  
-footer {
-    margin-top: auto;
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    #logo {
+        width: 220px;
+    }
+
+    #titulo-cadastro{
+        font-size: 23px;
+        height: 80px;
+    }
+
+    .form-label{
+        font-size: 13px;
+    }
+
+    #botao_cadastrar {
+        width: 100%;
+        font-size: 15px;
+        margin-top: 40px;
+    }
+
+    .form-control{
+        height: 30px;
+    }
+
+    .form-control:focus{
+        font-size: 12px;
+    }
+
+    #container_conteudo {
+        padding: 20px 30px 80px 30px;
+    }
+
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
 
-.container-footer {
-    background-color: rgba(232, 244, 244, 1);
-    padding: 30px 0;
+
+    #logo {
+        width: 280px;
+    }
+
+    #titulo-cadastro{
+        font-size: 26px;
+        height: 80px;
+    }
+
+    .form-label{
+        font-size: 14px;
+    }
+
+    #botao_cadastrar {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    .form-control{
+        height: 35px;
+    }
+
+    .form-control:focus{
+        font-size: 13px;
+    }
+
+    
+    #container_conteudo {
+        padding: 25px 30px 80px 30px;
+    }
+
 }
 
-#footer {
-    margin: 0;
-    color: rgba(36, 46, 71, 1);
-    font-size: 12px;
-    padding-right: 20px;
-}
+@media (min-width: 769px) and (max-width: 990px){
 
-#logopuc {
-    padding-bottom: 10px;
+
+    #logo {
+        width: 300px;
+    }
+
+    #titulo-cadastro{
+        font-size: 30px;
+        height: 80px;
+    }
+
+    .form-label{
+        font-size: 14px;
+    }
+
+    .form-control{
+        height: 35px;
+    }
+
+    .form-control:focus{
+        font-size: 13px;
+    }
+
+
 }

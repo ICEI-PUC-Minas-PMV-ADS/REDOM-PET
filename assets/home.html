@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Thiago Terra">
 
     <title>REDOM-PET</title>
-
+ 
     <link rel="shortcut icon" type="imagem/x-icon" href="/assets/img/logo-icone.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/medicamentos-styles.css">
+    <link rel="stylesheet" href="./css/home-styles.css">
     <script src="/assets/js/main.js"></script>
 
 </head>
-<body onload="validaUsuarioLogado(), exibeNomeUsuario(), addMedicamentos()">
+<body onload="validaUsuarioLogado(), exibeNomeUsuario()">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container" id="header">
@@ -30,7 +31,7 @@
                             <a class="nav-link" href="./cadastro-medicamento.html">Quero Doar</a>
                         </li> 
                         <li class="nav-item">
-                            <a class="nav-link" id="link-quero-receber" href="./medicamentos.html">Quero Receber</a>
+                            <a class="nav-link" href="./medicamentos.html">Quero Receber</a>
                         </li>
                     </ul>
                     <div id="perfil">
@@ -47,18 +48,52 @@
     </header>
     
     <main>
-        <div> 
-            <h1 id="titulo-medicamento">Medicamentos para Doação</h1>
-        </div>
-        <div class="container">
-            <h2 id="Texto-secundario">Encontre o medicamento que precisa logo abaixo:</h2>
-            <div id="msg-sem-medicamentos"></div>
-        </div>
-        <div class="container" id="container-central">
-            <div id="adicionar_ao_row" class="row">
-                <div id="nova_div"></div>
+        <div class="align-items-center" id="faixa-quem-somos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6" id="imagem-menina-cachorro">
+                        <img src="./img/menina-home.png" alt="Menina com Cachorro" id="menina-cachorro">
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div>
+                            <h1 id="quem-somos">QUEM SOMOS</h1>
+                            <p id="texto-quem-somos">A REDOM-PET (Rede de doação de medicamentos para Pet) surgiu em 2022, em Recife, com a ideia de <b>minimizar o problema do desperdício de medicamentos veterinários</b> através de uma plataforma que viabiliza a comunicação entre tutores que desejam doar ou receber esses medicamentos.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>   
+        </div>
+        
+        <div class="container" id="caixas-doar-receber">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="caixa-quero-doar">
+                        <div id="conteudo-quero-doar">
+                            <img src="./img/querodoar-home.png" alt="Imagem de Doação" id="imagem-quero-doar">
+                            <p id="texto-quero-doar-receber">Faça parte dessa rede de doações e <b>colabore com medicamentos para o tratamento de outros Pets</b></p>
+                            <a href="./cadastro-medicamento.html" class="link" id="botao-quero-doar">
+                                <h1 id="quero-doar">Quero Doar</h1>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" id="caixas">
+                    <div id="caixa-quero-receber" class="d-flex align-items-center">
+                        <div id="conteudo-quero-receber">
+                            <img src="./img/queroreceber-home.png" alt="Imagem de Doação" id="imagem-quero-receber">
+                            <p id="texto-quero-doar-receber">Faça parte dessa rede de doações e <b>solicite o medicamento que seu Pet necessita</b> </p>
+                            <a href="./medicamentos.html" class="link" id="botao-quero-receber">
+                                <h1 id="quero-receber">Quero Receber</h1>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+
     </main>
 
     <footer>
@@ -79,8 +114,7 @@
         </div>
     </footer>
 
-
-
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
