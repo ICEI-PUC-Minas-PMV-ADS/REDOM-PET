@@ -141,18 +141,18 @@ function logar() {
   let email = document.getElementById('email').value
   let senha = document.getElementById('senha').value
   let msgError = document.getElementById('msgError')
+  let banco_dados = []
+  banco_dados = JSON.parse(localStorage.getItem('dados_usuarios'))
 
   validaUsuario = {
     email: '',
     senha: ''
   }
 
-  if (email == '' && senha == '') {
+  if (email == '' && senha == '' || dados_usuarios == null) {
     msgError.setAttribute ('style', 'display: block')
     msgError.innerHTML = 'Usuário e senha incompleto'
 }else{
-  let banco_dados = []
-  banco_dados = JSON.parse(localStorage.getItem('dados_usuarios'))
 
   banco_dados.forEach(index_usuario => {
 
