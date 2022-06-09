@@ -244,7 +244,7 @@ footer {
 @media (min-width: 320px) and (max-width: 480px) {
 
     .container{
-        padding: 15px 15px;
+        padding: 15px 25px;
     }
 
     #logo {
@@ -254,24 +254,26 @@ footer {
     #perfil{
         padding: 0;
         padding-top: 10px;
-        text-align: left;
+        text-align: center;
+        width: 100%;
     }
     
     #login-cadastro{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     #deslogar{
         font-weight: 600;
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding: 5px 0;
+        padding: 8px 0;
+        text-align: center;
     }
     
     .nav-link {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         white-space: nowrap;
     }
@@ -371,13 +373,13 @@ footer {
     }
     
     #login-cadastro{
-        font-size: 14px;
-    }
-
-    #deslogar{
+        font-size: 16px;
+      }
+  
+      #deslogar{
         font-weight: 600;
-        font-size: 11px;
-    }
+        font-size: 13px;
+      }
 
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 5px 0;
@@ -486,10 +488,10 @@ footer {
     #login-cadastro{
         font-size: 16px;
     }
-
+    
     #deslogar{
-        font-weight: 600;
-        font-size: 12px;
+      font-weight: 600;
+      font-size: 14px;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {

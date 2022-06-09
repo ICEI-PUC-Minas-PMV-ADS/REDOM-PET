@@ -169,7 +169,6 @@ function logar() {
         telefone: index_usuario.telefone
       }
     }
-    
   })
 
   if (email == validaUsuario.email && senha == validaUsuario.senha) {

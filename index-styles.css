@@ -186,13 +186,13 @@ legend {
     }
 
     .container-login-azul {
-        height: 350px;
+        height: 100%;
         margin-top: 10px;
     }
 
     legend {
-        font-size: 25px;
-        padding-bottom: 10px;        
+        font-size: 30px;
+        padding-bottom: 10px;      
     }
 
     .card-login {
@@ -202,7 +202,14 @@ legend {
     }
 
     .cadastro {
-        font-size: 14px;
+        font-size: 16px;
+        margin-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .btn-entrar{
+        height: 40px;
+        margin-top: 15px;
     }
 
 
