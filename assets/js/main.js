@@ -151,7 +151,7 @@ function logar() {
 
   if (email == '' && senha == '' || dados_usuarios == null) {
     msgError.setAttribute ('style', 'display: block')
-    msgError.innerHTML = 'Usuário e senha incompleto'
+    msgError.innerHTML = 'Usuário e senha incompleto/inexistente'
 }else{
 
   banco_dados.forEach(index_usuario => {
