@@ -125,7 +125,7 @@ function cadastrar() {
   
     localStorage.setItem('dados_usuarios', JSON.stringify(banco_dados))
   
-    window.location.href = 'http://127.0.0.1:5500/index.html'
+    window.location.href = '../index.html'
     }
   } 
 }
@@ -178,7 +178,7 @@ function logar() {
     let token = Math.random().toString(16).substr(2)
     localStorage.setItem('token', token)
     localStorage.setItem('usuario_atual', JSON.stringify(validaUsuario))
-    window.location.href = 'http://127.0.0.1:5500/assets/home.html'
+    window.location.href = './assets/home.html'
   }else {
     msgError.setAttribute ('style', 'display: block')
     msgError.innerHTML = 'Usuário ou senha incorreto/incompleto'
@@ -192,12 +192,12 @@ function deslogar() {
   localStorage.removeItem('med_user_atual')
   localStorage.removeItem('bd_imagem')
 
-  window.location.href = 'http://127.0.0.1:5500/index.html'
+  window.location.href = '../index.html'
 }
 
 function validaUsuarioLogado() {
   if (localStorage.getItem('token') == null) {
-    window.location.href = 'http://127.0.0.1:5500/index.html'
+    window.location.href = '../index.html'
   }
 }
 
@@ -249,7 +249,7 @@ function cadastroMedicamento() {
 
     localStorage.removeItem('bd_imagem')
 
-    window.location.href = 'http://127.0.0.1:5500/assets/medicamentos.html'
+    window.location.href = './assets/medicamentos.html'
   }
 }
 

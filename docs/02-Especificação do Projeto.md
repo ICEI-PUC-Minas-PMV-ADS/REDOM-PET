@@ -32,14 +32,6 @@ Gustavo
 - Gustavo sabe que muitos medicamentos de pets são desperdiçados na região e pensou que poderia receber doações;
 - Gustavo não conhece outros tutores na região e não sabe como entrar em contato com eles.
 
-Luana
-
-- 35 anos, mora em Abreu e Lima (PE);
-- Ela trabalha há 9 anos como veterinária;
-- Luana faz o descarte dos medicamentos que sobram ou que estão próximos da data de validade;
-- Luana percebeu que ao invés de descartar os medicamentos ela poderia fazer doações para tutores que necessitam daqueles medicamentos em específico;
-- Ao começar as doações ela percebe que não conhece muitas pessoas na região que são tutores de animais e que precisam dos medicamentos que ela está doando no momento.
-
 ## Histórias de Usuários
 
 Com a observação do cotidiano das personas e a compreensão de suas necessidades, foram definidas as seguintes histórias de usuários.
@@ -48,15 +40,10 @@ Com a observação do cotidiano das personas e a compreensão de suas necessidad
 |--------------------|------------------------------------|----------------------------------------|
 |Juliana   | Cadastrar os remédios que não foram utilizados no tratamento do meu pet | Realizar a doação dos medicamentos |
 |Juliana   | Disponibilizar meu telefone e/ou e-mail | O receptor entrar em contato comigo e combinar a entrega dos medicamentos |
-|Juliana   | Ter uma conta no site | Poder visualizar todos os remédios que cadastrei para doação |
-|Juliana   | Pausar o anúncio no site quando algum usuário entrar em contato comigo | Não receber mensagens de outras pessoas que desejam a doação do mesmo medicamento |
-|Luana     | Descadastrar alguns medicamentos em minha conta | Poder usar novamente em outros tratamentos |
-|Matheus   | Pesquisar um remédio disponível para doação | Realizar o tratamento das enfermidades do meu pet |
-|Matheus   | Entrar em contato com o doador  | Definir a forma que irei receber o medicamento |
+|Gustavo   | Ter uma conta no site | Visualizar os medicamentos disponíveis para doação |
+|Matheus   | Verificar os remédios disponíveis no site | Realizar o tratamento das enfermidades do meu pet |
+|Matheus   | Obter as informações de contato do doador  | Definir a forma que irei receber o medicamento |
 |Gustavo   | Conhecer a história e motivos da criação da REDOM-PET (Rede de Doação de Medicamentos para PET) | Me sentir mais seguro e consciente da minha escolha de doar ou solicitar um medicamento nesse site |
-|Gustavo   | Informar ao doador que me interessei pelo medicamento | Iniciar o tratamento do meu pet |
-|Juliana   | Confirmar no site que o medicamento que doei foi entregue | Retirar o medicamento da lista de doações |
-|Juliana   | Editar meus dados cadastrais | Atualizar minhas informações pessoais |
 
 ## Requisitos
 
@@ -70,19 +57,13 @@ Os requisitos funcionais do projeto e seus respectivos níveis de prioridade de 
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| O sistema permitirá que usuários realizem cadastro. | ALTA | 
-|RF-02| O sistema permitirá que os usuários façam alterações em seus cadastros.   | ALTA |
-|RF-03| O cadastro do usuário deverá conter: Nome completo, e-mail, telefone (WhatsApp), bairro, cidade, estado, login, senha e data de nascimento. | ALTA |
-|RF-04| O site deve permitir o cadastro de medicamentos para doação, com tais campos de preenchimento: Nome; Descrição; Quantidade e Validade. | ALTA |
-|RF-05| O site permitirá a submissão de registros fotográficos dos medicamentos ao cadastrá-los. | BAIXA |
-|RF-06| O site não permitirá o cadastro de medicamentos de controle rigoroso. | MÉDIA |
-|RF-07| O sistema permitirá o acesso dos usuários através de uma página com login e senha. | ALTA |
-|RF-08| O site deve ter uma funcionalidade de pesquisa que permita ao receptor buscar pelo medicamento que deseja obter. | ALTA |
-|RF-09| O site deve ter um botão para exibir as informações de contato do doador para que o receptor possa se comunicar com o mesmo. | ALTA |
-|RF-10| O site deverá conter um botão para o doador pausar o anúncio e quando esse botão for acionado, o contato com o doador será suspenso. | ALTA |
-|RF-11| O site deve ter um botão que permita a exclusão do remédio pelo doador quando ele desejar ou fizer a doação do mesmo. | ALTA |
-|RF-12| O site deve ter em sua homepage a missão e informações sobre a REDOM-PET (Rede de Doação de Medicamentos para PET), assim como um botão de “Quero Doar” e um botão de “Quero Receber” e uma seção dedicada aos depoimentos. | MÉDIA |
-|RF-13| O site deve permitir a edição das informações do medicamento cadastrado. | MÉDIA |
+|RF-01| O sistema permitirá que usuários realizem cadastro. | ALTA |
+|RF-02| O cadastro do usuário deverá conter: Nome completo, e-mail, telefone, bairro, cidade, estado, senha e data de nascimento. | ALTA |
+|RF-03| O site deve permitir o cadastro de medicamentos para doação, com tais campos de preenchimento: Nome; Quantidade e Validade. | ALTA |
+|RF-04| O site não permitirá o cadastro de medicamentos de controle rigoroso. | MÉDIA |
+|RF-05| O sistema permitirá o acesso dos usuários através de uma página com login e senha. | ALTA |
+|RF-06| O site irá exibir as informações do medicamento e de contato do doador para que o receptor possa se comunicar com o mesmo. | ALTA |
+|RF-07| O site deve ter em sua homepage informações sobre a REDOM-PET (Rede de Doação de Medicamentos para PET), assim como um botão de “Quero Doar” e um botão de “Quero Receber”. | MÉDIA |
 
 ### Requisitos não Funcionais
 
