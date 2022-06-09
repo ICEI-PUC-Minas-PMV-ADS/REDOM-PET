@@ -249,7 +249,7 @@ function cadastroMedicamento() {
 
     localStorage.removeItem('bd_imagem')
 
-    window.location.href = './assets/medicamentos.html'
+    window.location.href = './medicamentos.html'
   }
 }
 
