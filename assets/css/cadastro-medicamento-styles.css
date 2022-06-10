@@ -192,6 +192,17 @@ label {
   text-align: center;
 }
 
+#msg-sem-imagem {
+  display: none;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 13px;
+  text-align: center;
+  color: rgb(187, 97, 107);
+  background-color: rgb(255, 235, 237);
+}
+
 #mgs_preencher_campos {
   display: none;
   padding: 8px;

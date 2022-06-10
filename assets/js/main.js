@@ -5,8 +5,16 @@ var imagem
 function previewImagem(){
   imagem = localStorage.getItem('bd_imagem')
   let select_imagem = document.getElementById('teste_imagem')
-  select_imagem.setAttribute('src', imagem)
-  select_imagem.setAttribute('class', 'editar_imagem')
+  let errorImagem = document.getElementById('msg-sem-imagem')
+
+  if(imagem == null){
+    errorImagem.setAttribute('style', 'display:block')
+    errorImagem.innerHTML = "Adicione uma imagem para ser cadastrado."
+  }else{
+    select_imagem.setAttribute('src', imagem)
+    select_imagem.setAttribute('class', 'editar_imagem')
+    errorImagem.setAttribute('style', 'display:none')
+  }
 }
 
 function validaNome(){
