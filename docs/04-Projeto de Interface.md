@@ -16,7 +16,7 @@ A Figura 5 apresentada abaixo detalha o fluxo de interação do usuário pelas 
 
 ![Fluxo perfil usuario](img/fluxo-perfil-do-usuario.png)
 
-Cada uma das telas representadas nos fluxos será detalhada na seção de Wireframes e para visualizar o wireframe interativo,[clique aqui](<https://www.figma.com/file/Y7PikQcB8ZZHwyp0ttTr0X/Projeto---REDOM-PET-(Rede-de-Doa%C3%A7%C3%A3o-de-Medicamentos-para-Pet)?node-id=0%3A1>).
+Cada uma das telas representadas nos fluxos será detalhada na seção de Wireframes e para visualizar o wireframe interativo, [clique aqui](<https://www.figma.com/file/Y7PikQcB8ZZHwyp0ttTr0X/Projeto---REDOM-PET-(Rede-de-Doa%C3%A7%C3%A3o-de-Medicamentos-para-Pet)?node-id=0%3A1>).
 
 ## Wireframes
 
@@ -31,10 +31,12 @@ No fluxo de telas do projeto, detalhado no item anterior, é possível observar 
 ### Tela - Homepage
 
 Na tela homepage temos um menu de navegação com os componentes de Home, Quero doar, Quero receber, Nome do usuário e Deslogar.
+
 No bloco de conteúdo é possível visualizar informações de Quem Somos e os componentes de “Quero doar” e “Quero receber”. Tais componentes são fluxos que o usuário poderá percorrer no site, dessa forma:
 
 - O fluxo “Quero doar” permite o usuário cadastrar um medicamento para possível doação no sistema.  
 - O fluxo “Quero receber” permite ao usuário acessar uma lista de medicamentos disponíveis no sistema.
+
 ![Tela Homepage](img/wireframe-homepage.png)
 
 ### Tela - Login
@@ -63,6 +65,6 @@ A tela de medicamentos apresenta uma lista com as medicações cadastradas no si
 
 ### Tela - Cadastro do Medicamento
 
-A tela de Cadastro de Medicamento contará, no bloco de conteúdo, informações como: nome, tipo, quantidade, foto e validade do medicamento. Após o preenchimento de todas as informações obrigatórias o botão “Cadastrar” ficará ativo.
+A tela de Cadastro de Medicamento contará, no Bloco de Conteúdo, com informações como: nome, tipo, quantidade, foto e validade do medicamento. Após o preenchimento de todas as informações obrigatórias o botão “Cadastrar” ficará ativo.
 
 ![Tela Cadastro Medicamentos](img/wireframe-cadastrar-medicamento.png)

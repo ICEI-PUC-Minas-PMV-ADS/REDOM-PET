@@ -60,7 +60,7 @@ Os requisitos funcionais do projeto e seus respectivos níveis de prioridade de 
 |RF-01| O sistema permitirá que usuários realizem cadastro. | ALTA |
 |RF-02| O cadastro do usuário deverá conter: Nome completo, e-mail, telefone, bairro, cidade, estado, senha e data de nascimento. | ALTA |
 |RF-03| O site deve permitir o cadastro de medicamentos para doação, com tais campos de preenchimento: Nome; Quantidade e Validade. | ALTA |
-|RF-04| O site permitirá a submissão de registros fotográficos dos medicamentos ao cadastrá-los de caráter obrigatório. | MÉDIA |
+|RF-04| O site permitirá a submissão de registros fotográficos dos medicamentos ao cadastrá-los de caráter obrigatório. | BAIXA |
 |RF-05| O sistema permitirá o acesso dos usuários através de uma página com login e senha. | ALTA |
 |RF-06| O site irá exibir as informações do medicamento e de contato do doador para que o receptor possa se comunicar com o mesmo. | ALTA |
 |RF-07| O site deve ter em sua homepage informações sobre a REDOM-PET (Rede de Doação de Medicamentos para PET), assim como um botão de “Quero Doar” e um botão de “Quero Receber”. | MÉDIA |
