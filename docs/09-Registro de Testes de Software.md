@@ -1,7 +1,7 @@
 # Registro de Testes de Software
 
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+Nesta seção será evidenciado os registros fotográficos dos testes no sistema.
 
 ## CT-01 – Navegabilidade da tela de Login para Homepage.
 
