@@ -19,7 +19,7 @@ O grupo identificou, inicialmente, a necessidade do teste de navegabilidade desc
 | Critérios de Êxito | 1) O login deverá ser efetuado apenas com informações corretas. |
 ||2) Ao clicar em “Acessar” deverá ser redirecionado para a Homepage.
 
-|CASO DE TESTE| CT-02 – Navegabilidade para efetuar Login |
+|CASO DE TESTE| CT-02 – Cadastro de usuário |
 | :--------------------: | :------------------------------------ |
 | Requisitos Associados | RF – 01 - O sistema permitirá que usuários realizem cadastro. |
 ||RF – 02 - O cadastro do usuário deverá conter: Nome completo, e-mail, telefone, bairro, cidade, estado, senha e data de nascimento.
