@@ -2,7 +2,9 @@
 
 - PDF da apresentação
 
-Clique [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/REDOM-PET/files/8985720/pdf-apresentacao-redom-pet.pdf) para baixar o PDF ou [aqui](https://cdn.discordapp.com/attachments/557400688918003712/990400465109909504/pdf-apresentacao-redom-pet.pdf) para visualização.
+[Apresentação REDOM.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/REDOM-PET/files/8985720/pdf-apresentacao-redom-pet.pdf)
+
+Clique [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/REDOM-PET/files/8985720/pdf-apresentacao-redom-pet.pdf) para baixar o PDF.
 
 
 - Vídeo da apresentação
