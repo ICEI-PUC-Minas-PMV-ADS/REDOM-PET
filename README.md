@@ -23,7 +23,17 @@ Este projeto é direcionado aos tutores de pets que necessitem adquirir ou doar 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, iremos descrever as instruções de como navegar pela plataforma.
+O usuário pode acessar o site clicando [aqui](https://icei-puc-minas-pmv-ads.github.io/REDOM-PET/) e deverá seguir o seguinte passo a passo:
+
+<ol>
+
+<li>Como se trata do primeiro acesso, ele deverá se cadastrar na plataforma clicando em “Cadastro”;</li>
+<li>Preencha todos os campos na tela de Cadastro e clique em “Cadastrar”;</li>
+<li>O usuário é redirecionado para a tela de Login. Dessa vez, deverá inserir o e-mail e senha que cadastrou;</li>
+<li>A tela subsequente é a Homepage onde ele poderá navegar e conhecer a plataforma.</li>
+</ol>
+
+
 
 # Documentação
 
