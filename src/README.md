@@ -13,6 +13,6 @@ O usuário pode acessar o site clicando [aqui](https://icei-puc-minas-pmv-ads.gi
 
 # Histórico de versões
 
-#### [1.0] - 15/05/2022: Versão em HTML e CSS
-#### [1.1] - 12/06/2022: Versão em HTML, CSS e JavaScript
-#### [2.0] - 26/06/2022: Versão final
+#### 1.0 - 15/05/2022: Versão em HTML e CSS
+#### 1.1 - 12/06/2022: Versão em HTML, CSS e JavaScript
+#### 2.0 - 26/06/2022: Versão final
