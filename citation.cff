@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: REDOM PET
+authors:
+  - family-names: Vasconcelos Dantas
+    given-names: Alana Maria
+  - family-names: Oliveira de Castro Silva
+    given-names: Isabela
+  - family-names: Jorges da Silva
+    given-names: João Paulo
+  - family-names: Simon Gondim Tavarez
+    given-names: Lion
+  - family-names: Antônio dos Santos
+    given-names: Marco
+  - family-names: Terra da Silva
+    given-names: Thiago
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Carvalho Monteiro Ferreira
+    given-names: Daniela
+keywords:
+  - Pet
+  - Doação
+  - Animais
+repository-code:
+version: 1.0.0
+date-released: 2023-10-31
